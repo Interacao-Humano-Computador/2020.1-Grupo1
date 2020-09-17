@@ -1,3 +1,4 @@
+![SAE Logo](/docs/images/sae.jpg)
 # Sistema de Apoio Educacional(SAE)
 
 ## Sobre o projeto
