@@ -38,4 +38,5 @@ Para mais informações sobre o SAE, clique [AQUI](https://cae.ucb.br/ajudasae/c
 ---------|---------------|-----------
 Fellipe dos Santos Araújo | 18/0063723 | @fellipe-araujo
 Itallo Cavalcante Gravina | 16/0125910 | @itallogravina
+Joao Victor Max Bisinotti de Oliveira | 17/0069991 | @jbisinotti
 Rafael Ribeiro | 15/0045182 | @rafaelflarrn
