@@ -39,7 +39,7 @@ Para mais informações sobre o SAE, clique [AQUI](https://cae.ucb.br/ajudasae/c
 Fellipe dos Santos Araújo | 18/0063723 | @fellipe-araujo
 Gabriel Paiva | 180016938 | @gabriel-paiva
 Itallo Gravina | 16/0125910 | @itallogravina
-Murilo Gomes | ------------ | @murilogds
+Murilo Gomes | 180025601 | @murilogds
 Rafael Ribeiro | 15/0045182 | @rafaelflarrn
-Rodrigo Lima | ------------ | @RodrigoTCLima
+Rodrigo Lima | 180037242 | @RodrigoTCLima
 
