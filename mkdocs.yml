@@ -1,0 +1,8 @@
+site_name: SAE
+theme:
+  name: material
+nav:
+    - Home: index.md
+    - Equipe: equipe.md
+    - Panejamento: planejamento.md
+    - Ponto de Controle 1: controle1.md
