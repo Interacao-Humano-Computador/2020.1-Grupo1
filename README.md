@@ -1,4 +1,4 @@
-<center>![SAE Logo](/docs/images/top_sae.jpg)</center>
+<center>![Logo](docs/images/top_sae.jpg)</center>
 # Sistema de Apoio Educacional(SAE)
 
 ## Sobre o projeto
@@ -37,5 +37,9 @@ Para mais informações sobre o SAE, clique [AQUI](https://cae.ucb.br/ajudasae/c
 **Nome** | **Matrícula** | **Github**
 ---------|---------------|-----------
 Fellipe dos Santos Araújo | 18/0063723 | @fellipe-araujo
-Itallo Cavalcante Gravina | 16/0125910 | @itallogravina
+Gabriel Paiva | 180016938 | @gabriel-paiva
+Itallo Gravina | 16/0125910 | @itallogravina
+Murilo Gomes | ------------ | @murilogds
 Rafael Ribeiro | 15/0045182 | @rafaelflarrn
+Rodrigo Lima | ------------ | @RodrigoTCLima
+
