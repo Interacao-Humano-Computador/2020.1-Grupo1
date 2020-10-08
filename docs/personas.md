@@ -29,14 +29,17 @@ Uma persona é um personagem fictício, arquétipo hipotético de um grupo de us
 <br>
 <br>
 
+## Referências
+
+[1] BARBOSA, Simone Diniz Junqueira; DA SILVA, Bruno Santana. Interação humano-computador. Capítulo 6 - Organização do Espaço de Problema. Elsevier, 2010. Disponibilizado no material de apoio da turma.
+
+<br>
+<br>
+
 ## Versionamento:
 
 | Data:      | Versão: | Descrição:           | Autor:                       |
 |------------|---------|----------------------|------------------------------|
 | 04/10/2020 | 1.0     | Criação das Personas | Gabriel Paiva e Murilo Gomes |
 
-<br>
-<br>
 
-## Referências:
-[1] BARBOSA, Simone Diniz Junqueira; DA SILVA, Bruno Santana. Interação humano-computador. Elsevier, 2010.
