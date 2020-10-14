@@ -8,7 +8,7 @@ Em IHC, esse tipo de análise pode ser utilizado nas três atividades habituais:
 
 ## HTA 01 - Marcar Presença
 
-![Presença - HTA](./images/analises-tarefas/Presença_HTA.png)
+![Presença - HTA](../images/analises-tarefas/Presença_HTA.png)
 
 | Objetivos/Operações           | Problemas e recomendações                                    |
 | ----------------------------- | ------------------------------------------------------------ |
@@ -23,7 +23,7 @@ Em IHC, esse tipo de análise pode ser utilizado nas três atividades habituais:
 
 ## HTA 02 - Fazer Prova
 
-![Prova - HTA](./images/analises-tarefas/Presença_HTA.png)
+![Prova - HTA](../images/analises-tarefas/Presença_HTA.png)
 
 | Objetivos/Operações                                 | Problemas e recomendações                                    |
 | --------------------------------------------------- | ------------------------------------------------------------ |

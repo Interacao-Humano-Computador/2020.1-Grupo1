@@ -4,9 +4,14 @@
 
 Uma persona é um personagem fictício, arquétipo hipotético de um grupo de usuários reais, criada para descrever um usuário típico [1].
 
+
+
+
 ## Nossas personas:
 
-|                         | <img src="./images/personas/diego.jpeg" alt="Diego Fernandes" width="200"/>                                                                                                                                                                                                                                                                           |
+                                  
+
+|                         | ![Gráfico de idade](../images/personas/diego.jpeg)                                                                                                                                                                                                                            |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nome:                   | Diego Fernandes                                                                                                                                                                                                                                                                     |
 | Idade:                  | 18 anos                                                                                                                                                                                                                                                                             |
@@ -18,14 +23,14 @@ Uma persona é um personagem fictício, arquétipo hipotético de um grupo de us
 <br>
 <br>
 
-|                         | <img src="./images/personas/jaq.jpeg" alt="Jaqueline Dias" width="200"/>                                                                                                                                                                                                                                 |
+|                         | ![Gráfico de idade](../images/personas/jaq.jpeg)                                                                                                                                                                                                                    |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nome:                   | Jaqueline Dias                                                                                                                                                                                                                            |
 | Idade:                  | 22 anos                                                                                                                                                                                                                                   |
 | Ocupação:               | Estudante de Engenharia de Software, 6° semestre.                                                                                                                                                                                         |
 | Características:        | - Alto conhecimento em programação e tecnologias.<br>- Têm experiência com outras ferramentas da faculdade.<br>- Utiliza o SAE na disciplina de Banco de Dados 1, para assinar a chamada, responder listas de questões e realizar provas. |
 | Objetivos:              | Pessoais:<br>- Conciliar faculdade e estágio sem perder performance em nenhum dos dois.<br><br>Práticos:<br>- Realizar as tarefas que necessitam do SAE da forma mais rápida possível.                                                    |
-| Sugestão ou Reclamação: | - O site SAE tinha que se preocupar minimamente com a usabilidade do seu sistema.                                                                                                                                                         |
+| Sugestão ou Reclamação: | - O site SAE tinha que se preocupar minimamente com a usabilidade do seu sistema.                                                                                                                   |
 <br>
 <br>
 

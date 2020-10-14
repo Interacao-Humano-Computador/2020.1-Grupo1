@@ -13,10 +13,10 @@ Tendo em vista o escopo do nosso projeto, sobre uma plataforma educacional e foc
 ### Dados dos usuários:
 <br>
 
-![Gráfico de idade](./images/perfis-usuario/idade.png)
+![Gráfico de idade](../images/perfis-usuario/idade.png)
 <br>
 
-![Gráfico de curso](./images/perfis-usuario/curso.png)
+![Gráfico de curso](../images/perfis-usuario/curso.png)
 <br>
 <br>
 <br>
@@ -24,22 +24,22 @@ Tendo em vista o escopo do nosso projeto, sobre uma plataforma educacional e foc
 ### Relação entre usuário e a plataforma SAE:
 <br>
 
-![Gráfico de materias](./images/perfis-usuario/materia.png)
+![Gráfico de materias](../images/perfis-usuario/materia.png)
 <br>
 
-![Gráfico de frequencia](./images/perfis-usuario/frequencia.png)
+![Gráfico de frequencia](../images/perfis-usuario/frequencia.png)
 <br>
 
-![Gráfico de funcionalidades](./images/perfis-usuario/funcionalidades.png)
+![Gráfico de funcionalidades](../images/perfis-usuario/funcionalidades.png)
 <br>
 
-![Gráfico de experiencia](./images/perfis-usuario/experiencia.png)
+![Gráfico de experiencia](../images/perfis-usuario/experiencia.png)
 <br>
 
-![Gráfico de facilidade](./images/perfis-usuario/facilidade.png)
+![Gráfico de facilidade](../images/perfis-usuario/facilidade.png)
 <br>
 
-![Gráfico de satisfação](./images/perfis-usuario/satisfacao.png)
+![Gráfico de satisfação](../images/perfis-usuario/satisfacao.png)
 <br>
 <br>
 
