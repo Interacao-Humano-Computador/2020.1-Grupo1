@@ -1,53 +1,100 @@
+# Metas de usabilidade 
+---------------------
+A usabilidade visa assegurar que produtos interativos sejam fáceis de
+aprender e usar, eficazes e agradáveis, na perspectiva do usuário. Isso
+implica otimizar as interações estabelecidas pelas pessoas com produtos
+interativos, de modo a permitir que realizem suas atividades. A
+usabilidade é dividida em seis metas:
 
-** **
+-   Ser eficaz no uso (eficácia);
+-   Ser eficiente no uso (eficiência);
+-   Ser segura no uso (segurança);
+-   Ter boa utilidade (utilidade);
+-   Ser fácil de aprender (learnability);
+-   Ser fácil de lembrar como usar (memorability).
 
-### 2.2.1 Eficácia
-<br />
-É a capacidade de resolução de problemas associado ao grau de realização dos objetivos que, no caso do Codeforces referem-se ao encontro de exercícios e campeonatos de programação de acordo com o assunto e dificuldade procurada. O Codeforces deve permitir:
+As metas de usabilidade geralmente são construídas como perguntas. O
+objetivo é fornecer ao designer de interação um meio de avaliar os
+vários aspectos de um produto interativo e da experiência de usuário. Ao
+responder as perguntas, é possível ser alertados em estágios iniciais no
+processo de design sobre potenciais problemas de design e conflitos que
+não foram considerado.
 
-Alcance de objetivos;
-Aprendizagem sobre uso;
-Acesso às informações necessárias.
+<b>Eficácia</b>: é uma meta bastante geral e se refere a quanto um produto é
+bom em fazer o que se espera dele.
 
-<b>Exemplo:</b>
-O sistema serve ao propósito principal?
+<b>Eficiência</b>: refere-se à maneira como um produto auxilia os usuários na
+realização de suas tarefas.
 
-### 2.2.2 Eficiência
-<br />
-O Codeforces deve auxiliar o usuário na realização da tarefa da maneira mais fluida e fácil possível. O comportamento do software deve atender as necessidades do usuário da maneira mais veloz possível tendo em vista os recursos procurados.
+<b>Segurança</b>: envolve proteger o usuário de condições perigosas e situações
+indesejáveis. Segurança serve para prevenir erros e reduzir riscos
+referente a ações drásticas como desligar o sistema ou deletar alguma
+informação.
 
-<b>Exemplo:</b>
-Quantos recursos são utilizados para realizar a tarefa específica?
+<b>Utilidade</b>: refere-se à medida na qual o produto oferece o tipo certo de
+funcionalidade, de modo que os usuários possam fazer aquilo que precisam
+ou desejam.
 
-### 2.2.3 Segurança
-<br />
-É a solução de proteção do usuário contra condições que exijam retrabalho ou que causam evasão dada a ausência de soluções corretivas pelo software e situações indesejáveis. A segurança serve para:
+<b>Learnability</b>: é a facilidade de aprender a usar um sistema. O usuário
+prefere utilizá-lo logo, sem perder tempo aprendendo como usar um
+sistema.
 
-Prevenção de erros;
-Reduzir de riscos (proximidades de botões perigosos como salvar e apagar)
-É importante garantir a segurança oferecendo formas de recuperação ou retorno.
-<b>Exemplo:</b>
+<b>Memorability</b>: refere-se à facilidade de lembrar como utilizar um sistema
+depois de já tê-lo aprendido. Isso é muito importante em produtos
+interativos utilizados com pouca frequência.
 
-O sistema previne o usuário de erros ou ações indesejáveis? O sistema recupera as ações anteriores?
+## Metas idealizadas 
+---------------------
+
+-   <b>Eficácia</b>: O site deve permitir fácil acesso às listas de chamadas,
+    listas de exercícios, informações sobre monitoria e material de
+    apoio.<br/>
+
+-   <b>Pergunta</b>: O sistema permite que os usuários aprendam, realizem suas
+    tarefas de forma eficiênte, acessem a informação de que necessitam?
+-   <b>Eficiência</b>: O site deve permitir que os usuários realize tarefas
+    comuns executando um número mínimo de etapas. Minimizando os
+    esforços exigidos por cada tarefa.
+
+-   <b>Pergunta</b>: Os usuários conseguirão realizar suas tarefas de forma
+    rápida e objetiva, uma vez que tenham aprendido como utilizar um
+    produto para realizar suas tarefas?
+
+-   <b>Segurança</b>: O site deve garantir que todos os dados do usuário sejam
+    utilizados de forma correta. Suas notas devem ser apresentadas de
+    forma coerente com o que foi realizado em suas tarefas.
+
+-   <b>Pergunta</b>: Como o sistema lida com erros e como o faz para
+    prevení-   los?
+
+-   <b>Utilidade</b>: O site deve disponibilizar todas as ferramentas
+    necessárias para que os usuários realizem suas tarefas diárias.
+
+-   <b>Pergunta</b>: O sistema permite um conjunto adequado de funções que
+    permitam aos usuários realizar todas as suas tarefas de maneira que
+    desejam?
+
+-   <b> Learnability</b>: O site deve ser de fácil utilização, com uma alta
+    curva de aprendizado. Possibilitando que os usuários o utilizem de
+    forma imediata.
+
+-   <b>Pergunta</b>: O usuário saberá como usar o site explorando a interface e
+    experimentando determinadas ações? Será difícil aprender todo o
+    conjunto de funções dessa maneira?
+
+-   <b>Memorability</b>: O site deve ser intuitivo e de fácil utilização de
+    forma que os usuários que não usaram uma operação por muito tempo
+    devem ser capazes de lembrar ou, pelo menos, de voltar a lembrar
+    rapidamente como usá-la.
+
+-   <b>Pergunta</b>: Que tipos de suporte de interface foram fornecidos com o
+    objetivo de ajudar os usuários a lembrarem como realizar as tarefas,
+    especialmente para produtos e operações que são utilizados com pouca
+    frequência?
 
 
-### 2.2.4 Utilidade
-<br />
-O sistema deve fornecer ao usuário um conjunto apropriado de funções, aquelas que são realmente esperadas pelo usuário no momento em que buscam pelo Codeforces.
+| Data:              | Versão:            | Descrição:         | Autor:             |
+|--------------------|--------------------|--------------------|--------------------|
+| 14/10/2020         | 1.0                | Criação das metas de usabilidade   | Rafael Ribeiro/  itallo gravina    |
 
-<b>Exemplo:</b>
-O sistema oferece ao usuário a funcionalidade certa segundo o contexto?
 
-### 2.2.5 Aprendizado
-<br />
-Esta meta refere-se a capacidade de aprendizado e determina se vai ser fácil aprender a usar o sistema. Quando as soluções encontradas para o sistema ainda apontam uma certa complexidade de uso, o usuário será mais propenso a estudar suas possibilidades de uso se ele tiver um objetivo muito claro. Se o cenário não for este, as chances são que ele desista nas primeiras tentativas e que a evasão do software aumente.
-
-<b>Exemplo:</b>
-É fácil aprender a usar?
-
-### 2.2.6 Memorização
-<br />
-Essa meta de usabilidade refere-se a facilidade em lembrar como utilizar o sistema após uma experiência prévia. A reutilização do sistema após semanas ou meses da última utilização deve favorecer o usuário a lembrar processos e comandos. Pode-se associar isso à intuitividade das interfaces e o esquecimento, que deve ser corrigido, ocorre quando as funções são obscura, ilógicas ou pobremente encadeadas.
-
-<b>Exemplo:</b>
-Que tipo de suporte é oferecido ao usuário para auxiliá-lo na realização das tarefas, especialmente os itens não recorrentes?

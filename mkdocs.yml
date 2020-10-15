@@ -7,10 +7,12 @@ nav:
     - Panejamento: planejamento.md
     # - Ponto de Controle 1: controle1.md
     - Ponto de Controle 2: 
+        - Apresentação: PC2/Apresentacao.md
         - Analise de Tarefa: PC2/analise-tarefas.md
         - Perfil do usuario: PC2/perfil-usuarios.md
         - Persona: PC2/personas.md
-    # - Ponto de Controle 3: 
-    #     - Guia de Estilo: PC3/Guia de Estilo.md
-    #     - Metas de usabilidade: PC3/Metas de usabilidade.md
-    #     - Persona: PC3/Princípios Gerais de Projeto.md
+    - Ponto de Controle 3: 
+        - Apresentação: PC3/Apresentacao.md
+        - Guia de Estilo: PC3/Guia de Estilo.md
+        - Metas de usabilidade: PC3/Metas de usabilidade.md
+        - Persona: PC3/Princípios Gerais de Projeto.md
