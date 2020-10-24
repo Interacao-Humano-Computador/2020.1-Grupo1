@@ -41,10 +41,13 @@ Antes de executar uma ação, é necessário tornar visível para os usuários o
 Deve-se projetar para o erro, ou seja, assumir que qualquer erro potencial será cometido. O designer deve ajudar o usuário a se recuperar de um erro, informando-lhe sobre o que ocorreu, as consequências disso e como reverter os resultados indesejados.
 
 ## Referências
-[SERRANO, Maurício; SERRANO, Milene; Requisitos – Aula 13](https://aprender3.unb.br/pluginfile.php/558510/mod_resource/content/5/IHC%20CAP.8.pdf)
+[SERRANO, Maurício; SERRANO, Milene; Requisitos – Aula 13](https://aprender3.unb.br/pluginfile.php/558510/mod_resource/content/5/IHC%20CAP.8.pdf) Acesso em:14/10/2020 
+
+[SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador: Capítulo 08 - Princípios e Diretrizes para o Design de IHC. 1a.Edição, Editora Campus, 2010.](https://aprender3.unb.br/pluginfile.php/558510/mod_resource/content/5/IHC%20CAP.8.pdf) Acesso em:14/10/2020
 
 ## Versionamento
 
 Data | Versão | Descrição | Autor
 ---- | ------ | --------- | -----
 14/10/2020 | 1.0 | Adição dos Princípios Gerais do Projeto | Fellipe
+24/10/2020 | 1.1 | Complementando as referências | Rafael Ribeiro
