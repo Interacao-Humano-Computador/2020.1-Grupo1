@@ -46,6 +46,10 @@ Um guia de estilo deve incorporar decisões de design envolvendo os principais e
 
    ![Grid do Sae](../images/guiadeestilo/gridsae.png)
 
+   De acordo com a análise feita e citada acima, planejamos fazer um novo grid com maior aproveitamento do espaço e menos confusão nas informações. Veja abaixo o grid planejado:
+
+   ![Novo Grid](../images/guiadeestilo/novo_grid.png)
+
    **3.2. Janelas:**
 
    A maioria das janelas seguem a padronização descrita no item anterior. As exceções são janelas que abrem para o usuário escolher sua turma ou para acessar o chat.
@@ -54,7 +58,7 @@ Um guia de estilo deve incorporar decisões de design envolvendo os principais e
 
    **3.3. Tipografia:**
 
-   As principais fontes utilizadas no site são: Arial e Verdana
+   As principais fontes utilizadas no SAE atualmente são: Arial e Verdana. Decidimos manter essas mesmas fontes, por serem fontes sem serifa, devido a sua boa visibilidade e fácil leitura na WEB, por seu visual moderno e dinâmico e compatibilidade com muitos navegadores.
 
    ![Fonte Arial](../images/guiadeestilo/arial.jpeg)
 
@@ -67,6 +71,8 @@ Um guia de estilo deve incorporar decisões de design envolvendo os principais e
 ![Icones](../images/guiadeestilo/icones.png)
 
    **3.5. Cores:**
+
+   As cores utilizadas atualmente no SAE são basicamente azul, roxo e cinza (com adição de preto e branco para fontes) como indicado na tabela abaixo. Não fugimos muito dessas cores, decidindo utilizar azul, cinza, preto e branco, só mudando as tonalidades para adotar um visual mais moderno. A nova paleta de cores adotada passa a segurança e seriedade de um ambiente acadêmico, trazendo foco e conforto para o estudante que esteja utilizando o sistema, o que é muito importante.
 
    ![Paleta de Cores](../images/guiadeestilo/coressae.png)
 
@@ -125,3 +131,4 @@ Um guia de estilo deve incorporar decisões de design envolvendo os principais e
 | Data:      | Versão: | Descrição:           | Autor:                       |
 |------------|---------|----------------------|------------------------------|
 | 14/10/2020 | 1.0     | Criação do Guia de Estilo | Gabriel Paiva e Murilo Gomes |
+| 27/10/2020 | 1.1     | Melhorando informações sobre: Fontes, Cores e Grid | Gabriel Paiva e Murilo Gomes |
