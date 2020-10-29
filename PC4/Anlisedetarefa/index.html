@@ -428,19 +428,25 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#goms" class="md-nav__link">
     GOMS
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#klm-goms" class="md-nav__link">
     KLM-GOMS
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="KLM-GOMS">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#cmn-goms" class="md-nav__link">
@@ -530,19 +536,25 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#goms" class="md-nav__link">
     GOMS
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#klm-goms" class="md-nav__link">
     KLM-GOMS
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="KLM-GOMS">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#cmn-goms" class="md-nav__link">
@@ -687,78 +699,29 @@ quando atingimos um objetivo ou subjetivo.</p>
 <ul>
 <li>Tabela 1. Tabela de representação de tarefas da AHT do obejetivo "Resolver problemas"</li>
 </ul>
-<h3 id="goms">GOMS</h3>
-<p>O GOMS(*Goals, Operators, Methods and Selection Rules* - Objetivos,
-Operadores, Métodos e Regras de Seleção) foi criado para analisar o
-desempenho de usuários competentes de sistemas computacionais,
-realizando tarefas dentro da sua competência e sem cometer erros. Esse
-modelo têm se mostrado úteis para prever o desempenho, ou seja, predizer
-o impacto de decisões de design no desempenho competente.</p>
-<p>O GOMS é um método para descrever uma tarefa e o conhecimento do usuário sobre como realizá-la em termos de objetivos(*goals*),
-operadores(*operators*), métodos (*methods*) e regras de seleção
-(*selection rules*).</p>
+<h2 id="goms">GOMS</h2>
+<p>O GOMS(<em>Goals, Operators, Methods and Selection Rules</em> - Objetivos, Operadores, Métodos e Regras de Seleção) foi criado para analisar o desempenho de usuários competentes de sistemas computacionais, realizando tarefas dentro da sua competência e sem cometer erros. Esse modelo têm se mostrado úteis para prever o desempenho, ou seja, predizer o impacto de decisões de design no desempenho competente.
+O GOMS é um método para descrever uma tarefa e o conhecimento do usuário sobre como realizá-la em termos de objetivos(<em>goals</em>), operadores(<em>operators</em>), métodos (<em>methods</em>) e regras de seleção (<em>selection rules</em>).</p>
 <ul>
-<li>Os **objetivos** representam o que o usuário quer realizar</li>
+<li>Os <strong>objetivos</strong> representam o que o usuário quer realizar utilizando o software</li>
+<li>Um exemplo de objetivo no SAE é realizar uma lista de exercícios</li>
+<li>Os <strong>operadores</strong> são primitivas internas ou externas, as ações concretas que o software permite que os usuários façam.</li>
+<li>Nas listas realizadas pelos alunos, há questões discursivas onde é inserido dados que são enviados para serem corrigidas pelo professor.</li>
+<li>Os <strong>métodos</strong> são sequências bem conhecidas de subobjetivos e operadores que permitem atingir  um objetivo maior.</li>
+<li>Para realizar uma lista, o usuário deve seguir uma série de passos até a conclusão de seu objetivo.</li>
+<li>As <strong>regras de seleção</strong> acontece quando há mais do que um método para atingir um mesmo objetivo. Elas representam tomadas de decisão dos usuários sobre qual método utilizar numa determinada situação.</li>
+<li>Quando objetivo é ter um feedback de como o usuário está se saindo nos conteúdos da disciplina, a inteligência artificial MINa realiza essa avaliação e indica para o usuário como ele está se saindo. É possível chegar a esse objetivo de duas maneiras, solicitando orientação ou consultando o relatório.</li>
 </ul>
-<p>utilizando o software</p>
+<h2 id="klm-goms">KLM-GOMS</h2>
+<p>O KLM é a técnica mais simples de GOMS, limitada a um conjunto predefinido pelos seguintes operadores primitivos: </p>
 <ul>
-<li>
-<p>Um exemplo de objetivo no SAE é realizar uma lista de exercícios</p>
-</li>
-<li>
-<p>Os **operadores** são primitivas internas ou externas, as ações</p>
-</li>
+<li><strong>K</strong> para pressionar uma tecla ou botão;</li>
+<li><strong>P</strong> para apontar com o mouse um alvo num dispositivo visual;</li>
+<li><strong>H</strong> para mover as mãos para o teclado ou outro dispositivo;</li>
+<li><strong>D</strong> para desenhar um segmento de reta em um grid;</li>
+<li><strong>M</strong> para se preparar mentalmente para realizar uma ação ou uma série de ações primitivas fortemente relacionadas entre si;</li>
+<li><strong>R</strong> para o tempo de resposta do sistema, durante o qual o usuário</li>
 </ul>
-<p>concretas que o software permite que os usuários façam.</p>
-<ul>
-<li>Nas listas realizadas pelos alunos, há questões discursivas onde é</li>
-</ul>
-<p>inserido dados que são enviados para serem corrigidas pelo professor.</p>
-<ul>
-<li>Os **métodos** são sequências bem conhecidas de subobjetivos e</li>
-</ul>
-<p>operadores que permitem atingir um objetivo maior.</p>
-<ul>
-<li>Para realizar uma lista, o usuário deve seguir uma série de passos</li>
-</ul>
-<p>até a conclusão de seu objetivo.</p>
-<ul>
-<li>As **regras de seleção** acontece quando há mais do que um método</li>
-</ul>
-<p>para atingir um mesmo objetivo. Elas representam tomadas de decisão dos</p>
-<p>usuários sobre qual método utilizar numa determinada situação.</p>
-<ul>
-<li>Quando objetivo é ter um feedback de como o usuário está se saindo</li>
-</ul>
-<p>nos conteúdos da disciplina, a inteligência artificial MINa realiza essa</p>
-<p>avaliação e indica para o usuário como ele está se saindo. É possível</p>
-<p>chegar a esse objetivo de duas maneiras, solicitando orientação ou</p>
-<p>consultando o relatório.</p>
-<h3 id="klm-goms">KLM-GOMS</h3>
-<p>O KLM é a técnica mais simples de GOMS, limitada a um conjunto</p>
-<p>predefinido pelos seguintes operadores primitivos:</p>
-<ul>
-<li>
-<p>**K** para pressionar uma tecla ou botão;</p>
-</li>
-<li>
-<p>**P** para apontar com o mouse um alvo num dispositivo visual;</p>
-</li>
-<li>
-<p>**H** para mover as mãos para o teclado ou outro dispositivo;</p>
-</li>
-<li>
-<p>**D** para desenhar um segmento de reta em um grid;</p>
-</li>
-<li>
-<p>**M** para se preparar mentalmente para realizar uma ação ou uma</p>
-</li>
-</ul>
-<p>série de ações primitivas fortemente relacionadas entre si;</p>
-<ul>
-<li>**R** para o tempo de resposta do sistema, durante o qual o</li>
-</ul>
-<p>usuário</p>
 <p>Tabela 1. Algumas operações do KLM-GOMS e suas durações médias</p>
 <table>
 <thead>
@@ -1115,151 +1078,51 @@ operadores(*operators*), métodos (*methods*) e regras de seleção
 </tbody>
 </table>
 <h3 id="cmn-goms">CMN-GOMS</h3>
-<p>O CMN-GOMS possui uma hierarquia estrita de objetivos, os operadores são</p>
-<p>executados estritamente em ordem sequencial, e os métodos são</p>
-<p>representados numa notação semelhante a um pseudocódigo, que inclui</p>
-<p>submétodos e condicionais. Ao elaborar esse modelo, devemos definir</p>
-<p>cuidadosamente o que representar e o que não representar. Tarefas</p>
-<p>mentais podem ser complexas, mas apenas aquelas que estejam relacionadas</p>
-<p>ao design do sistema devem ser incluídas no modelo.Além disso, o nível</p>
-<p>de detalhes utilizado deve atender aos objetivos da análise. Em etapas</p>
-<p>iniciais, costumamos representar as estratégias alternartivas que o</p>
-<p>usuário poderá seguir para atingir seus objetivos. Já para uma análise</p>
-<p>mais precisa do desempenho, os passos são mais detalhados.</p>
-<p>Exemplo 1 - Modelo CMN-GOMS Sem detalhes</p>
-<p>* GOAL 0: Fazer questões avulsas</p>
+<p>O CMN-GOMS possui uma hierarquia estrita de objetivos, os operadores são executados estritamente em ordem sequencial, e os métodos são representados numa notação semelhante a um pseudocódigo, que inclui submétodos e condicionais. Ao elaborar esse modelo, devemos definir cuidadosamente o que representar e o que não representar. Tarefas mentais podem ser complexas, mas apenas aquelas que estejam relacionadas ao design do sistema devem ser incluídas no modelo.Além disso, o nível de detalhes utilizado deve atender aos objetivos da análise. Em etapas iniciais, costumamos representar as estratégias alternartivas que o usuário poderá seguir para atingir seus objetivos. Já para uma análise mais precisa do desempenho, os passos são mais detalhados.</p>
+<p>Exemplo 1 - Modelo CMN-GOMS Com Detalhes</p>
 <ul>
-<li>
-<p>GOAL 1: Encontrar o conteúdo</p>
+<li>GOAL 0: Fazer questões avulsas</li>
+<li>GOAL 1: Encontrar o conteúdo<ul>
+<li>METHOD 1.A: Encontrar através do menu Questões</li>
+<li>OP. 1.A.1: deslocar o cursor do mouse até o botão Questões</li>
+<li>OP. 1.A.2: clicar com o botão esquerdo do mouse</li>
+<li>OP. 1.A.3: deslocar o cursor do mouse até o botão Questões no menu lateral</li>
+<li>OP. 1.A.4: clicar com o botão esquerdo do mouse</li>
+<li>OP. 1.A.5: deslocar o cursor do mouse até o ícone de Pesquisar no campo Disciplina</li>
+<li>OP. 1.A.6: clicar com o botão esquerdo do mouse</li>
+<li>OP. 1.A.7: deslocar o cursor do mouse até o botão da Disciplina desejada</li>
+<li>OP. 1.A.8: clicar com o botão esquerdo do mouse</li>
+<li>OP. 1.A.9: deslocar o cursor do mouse até o ícone de Pesquisar no campo Conteúdo</li>
+<li>OP. 1.A.10: clicar com o botão esquerdo do mouse</li>
+<li>OP. 1.A.11: deslocar o cursor do mouse até o botão do Conteúdo desejado</li>
+<li>OP. 1.A.12: clicar com o botão esquerdo do mouse</li>
+<li>GOAL 1.A.13 Escolher tipo de questão<ul>
+<li>METHOD 1.A.13.A: selecionar o tipo de questão de acordo com uma lista de tipos</li>
+<li>(SEL. RULE: preferência do usuário)</li>
+<li>OP. 1.A.13.A.1: deslocar o cursor do mouse para a lista de Tipo de Questão</li>
+<li>OP. 1.A.13.A.2: clicar com o botão esquerdo sobre o tipo de lista desejado</li>
+</ul>
 </li>
-<li>
-<p>METHOD 1.A: Encontrar através do menu Questões</p>
+<li>GOAL 1.A.14 Escolher tipo de questão<ul>
+<li>METHOD 1.A.14.A: selecionar a dificuldade da questão de acordo com uma lista de tipos</li>
+<li>(SEL. RULE: preferência do usuário)</li>
+<li>OP. 1.A.14.A.1: deslocar o cursor do mouse para a lista de Dificuldade</li>
+<li>OP. 1.A.14.A.2: clicar com o botão esquerdo sobre o tipo de lista desejado</li>
+</ul>
 </li>
-<li>
-<p>OP. 1.A.1: deslocar o cursor do mouse até o botão Questões</p>
+<li>GOAL 1.A.15 Escolher tipo de questão<ul>
+<li>METHOD 1.A.15.A: selecionar a categoria da questão de acordo com uma lista de tipos</li>
+<li>(SEL. RULE: preferência do usuário)</li>
+<li>OP. 1.A.15.A.1: deslocar o cursor do mouse para a lista de Categoria</li>
+<li>OP. 1.A.15.A.2: clicar com o botão esquerdo sobre o tipo de lista desejado</li>
+</ul>
 </li>
-<li>
-<p>OP. 1.A.2: clicar com o botão esquerdo do mouse</p>
-</li>
-<li>
-<p>OP. 1.A.3: deslocar o cursor do mouse até o botão Questões no</p>
+<li>GOAL 1.A.16 Ir para a página com as questões<ul>
+<li>OP. 1.A.16.1: deslocar o cursor do mouse até o botão Continuar</li>
+<li>OP. 1.A.17.2: clicar com o botão esquerdo do mouse</li>
+</ul>
 </li>
 </ul>
-<p>menu lateral</p>
-<ul>
-<li>
-<p>OP. 1.A.4: clicar com o botão esquerdo do mouse</p>
-</li>
-<li>
-<p>OP. 1.A.5: deslocar o cursor do mouse até o ícone de Pesquisar</p>
-</li>
-</ul>
-<p>no campo Disciplina</p>
-<ul>
-<li>
-<p>OP. 1.A.6: clicar com o botão esquerdo do mouse</p>
-</li>
-<li>
-<p>OP. 1.A.7: deslocar o cursor do mouse até o botão da Disciplina</p>
-</li>
-</ul>
-<p>desejada</p>
-<ul>
-<li>
-<p>OP. 1.A.8: clicar com o botão esquerdo do mouse</p>
-</li>
-<li>
-<p>OP. 1.A.9: deslocar o cursor do mouse até o ícone de Pesquisar</p>
-</li>
-</ul>
-<p>no campo Conteúdo</p>
-<ul>
-<li>
-<p>OP. 1.A.10: clicar com o botão esquerdo do mouse</p>
-</li>
-<li>
-<p>OP. 1.A.11: deslocar o cursor do mouse até o botão do Conteúdo</p>
-</li>
-</ul>
-<p>desejado</p>
-<ul>
-<li>
-<p>OP. 1.A.12: clicar com o botão esquerdo do mouse</p>
-</li>
-<li>
-<p>GOAL 1.A.13 Escolher tipo de questão</p>
-</li>
-<li>
-<p>METHOD 1.A.13.A: selecionar o tipo de questão de acordo com</p>
-</li>
-</ul>
-<p>uma lista de tipos</p>
-<ul>
-<li>
-<p>(SEL. RULE: preferência do usuário)</p>
-</li>
-<li>
-<p>OP. 1.A.13.A.1: deslocar o cursor do mouse para a lista de</p>
-</li>
-</ul>
-<p>Tipo de Questão</p>
-<ul>
-<li>OP. 1.A.13.A.2: clicar com o botão esquerdo sobre o tipo de</li>
-</ul>
-<p>lista desejado</p>
-<ul>
-<li>
-<p>GOAL 1.A.14 Escolher tipo de questão</p>
-</li>
-<li>
-<p>METHOD 1.A.14.A: selecionar a dificuldade da questão de acordo</p>
-</li>
-</ul>
-<p>com uma lista de tipos</p>
-<ul>
-<li>
-<p>(SEL. RULE: preferência do usuário)</p>
-</li>
-<li>
-<p>OP. 1.A.14.A.1: deslocar o cursor do mouse para a lista de</p>
-</li>
-</ul>
-<p>Dificuldade</p>
-<ul>
-<li>OP. 1.A.14.A.2: clicar com o botão esquerdo sobre o tipo de</li>
-</ul>
-<p>lista desejado</p>
-<ul>
-<li>
-<p>GOAL 1.A.15 Escolher tipo de questão</p>
-</li>
-<li>
-<p>METHOD 1.A.15.A: selecionar a categoria da questão de acordo</p>
-</li>
-</ul>
-<p>com uma lista de tipos</p>
-<ul>
-<li>
-<p>(SEL. RULE: preferência do usuário)</p>
-</li>
-<li>
-<p>OP. 1.A.15.A.1: deslocar o cursor do mouse para a lista de</p>
-</li>
-</ul>
-<p>Categoria</p>
-<ul>
-<li>OP. 1.A.15.A.2: clicar com o botão esquerdo sobre o tipo de</li>
-</ul>
-<p>lista desejado</p>
-<ul>
-<li>
-<p>GOAL 1.A.16 Ir para a página com as questões</p>
-</li>
-<li>
-<p>OP. 1.A.16.1: deslocar o cursor do mouse até o botão Continuar</p>
-</li>
-<li>
-<p>OP. 1.A.17.2: clicar com o botão esquerdo do mouse</p>
 </li>
 </ul>
 <h2 id="referencia">Referencia</h2>
@@ -1278,7 +1141,7 @@ operadores(*operators*), métodos (*methods*) e regras de seleção
 <tr>
 <td>14/10/2020</td>
 <td>1.0</td>
-<td>Criação das metas de usabilidade</td>
+<td>Criação das Analise de tarefas</td>
 <td>Rafael Ribeiro/  itallo gravina</td>
 </tr>
 <tr>

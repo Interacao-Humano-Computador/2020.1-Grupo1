@@ -20,10 +20,10 @@ Abaixo se encontram 2 storyboards construídos com base em possíveis interaçõ
 ### 1.2. Desenvolvimento da tarefa:
 
 * **Passos envolvidos para realização da tarefa:** 
-  * Acessar o site do SAE.
-  * Inserir os dados requeridos.
-  * Clicar na turma correta.
-  * Clicar no indicativo de presença.
+    * Acessar o site do SAE.
+    * Inserir os dados requeridos.
+    * Clicar na turma correta.
+    * Clicar no indicativo de presença.
 
 * **O que leva a pessoa a usar a aplicação?** Marcar presença das aulas no EAD.
 
@@ -54,10 +54,10 @@ Figura 1: Storyboard 1: Assinar a chamada
 ### 2.2. Desenvolvimento da tarefa:
 
 * **Passos envolvidos para realização da tarefa:**
-  * Realizar a prova.
-  * Inserir os dados da turma.
-  * Clicar na turma correta.
-  * Enviar a lista.
+    * Realizar a prova.
+    * Inserir os dados da turma.
+    * Clicar na turma correta.
+    * Enviar a lista.
 
 * **O que leva a pessoa a usar a aplicação?** Realizar tarefas relacionadas à disciplina como realizar provas, resolver exercícios, entre outras.
 
