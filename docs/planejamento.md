@@ -40,6 +40,7 @@ Ferramentas Utilizadas
   ![logo GitHub](./images/GitHub_logo.png) | [Github](https://github.com/) | Plataforma que será utilizada para gerir e unificar aquilo que o grupo desenvolver
   ![logo Drive](./images/GoogleDrive_logo.png) | [Google Drive](https://www.google.com/intl/pt-BR/drive/) | Plataforma para permitir a edição simultânea de arquivos por todos do grupo
    ![logo telegram](./images/Telegram_logo.png) | [Telegram](https://web.telegram.org/#/login)| Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
+    ![logo Figma](./images/Figma.jpeg) | [Figma](https://www.figma.com/)| Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
 
 Interação Humano-Computador 2020 SAE
 [Github](https://github.com/Interacao-Humano-Computador/2020.1-SAE/).

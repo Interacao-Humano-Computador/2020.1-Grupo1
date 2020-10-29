@@ -1,0 +1,1373 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.14">
+    
+    
+      
+        <title>Análise de Tarefa - SAE</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d3202873.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analise-de-tarefas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="SAE" class="md-header-nav__button md-logo" aria-label="SAE">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            SAE
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Análise de Tarefa
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SAE" class="md-nav__button md-logo" aria-label="SAE">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    SAE
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../equipe/" title="Equipe" class="md-nav__link">
+      Equipe
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamento/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Ponto de Controle 2
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Ponto de Controle 2" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Ponto de Controle 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC2/Apresentacao/" title="Apresentação" class="md-nav__link">
+      Apresentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC2/analise-tarefas/" title="Analise de Tarefa" class="md-nav__link">
+      Analise de Tarefa
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC2/perfil-usuarios/" title="Perfil do usuario" class="md-nav__link">
+      Perfil do usuario
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC2/personas/" title="Persona" class="md-nav__link">
+      Persona
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Ponto de Controle 3
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Ponto de Controle 3" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Ponto de Controle 3
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC3/Apresentacao/" title="Apresentação" class="md-nav__link">
+      Apresentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC3/Guia%20de%20Estilo/" title="Guia de Estilo" class="md-nav__link">
+      Guia de Estilo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC3/Metas%20de%20usabilidade/" title="Metas de usabilidade" class="md-nav__link">
+      Metas de usabilidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../PC3/Princ%C3%ADpios%20Gerais%20de%20Projeto/" title="Princípios Gerais de Projeto" class="md-nav__link">
+      Princípios Gerais de Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Ponto de Controle 4
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Ponto de Controle 4" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Ponto de Controle 4
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Apresentacao/" title="Apresentação" class="md-nav__link">
+      Apresentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../storyboards/" title="Storyboards" class="md-nav__link">
+      Storyboards
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Análise de Tarefa
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Análise de Tarefa" class="md-nav__link md-nav__link--active">
+      Análise de Tarefa
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#analise-hierarquica-de-tarefas-aht" class="md-nav__link">
+    Análise Hierárquica de tarefas (AHT)
+  </a>
+  
+    <nav class="md-nav" aria-label="Análise Hierárquica de tarefas (AHT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivos-dos-usuarios" class="md-nav__link">
+    Objetivos dos Usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#goms" class="md-nav__link">
+    GOMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klm-goms" class="md-nav__link">
+    KLM-GOMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmn-goms" class="md-nav__link">
+    CMN-GOMS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia" class="md-nav__link">
+    Referencia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../planejametodaavaliacao/" title="Planejamento da Avaliação" class="md-nav__link">
+      Planejamento da Avaliação
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#analise-hierarquica-de-tarefas-aht" class="md-nav__link">
+    Análise Hierárquica de tarefas (AHT)
+  </a>
+  
+    <nav class="md-nav" aria-label="Análise Hierárquica de tarefas (AHT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivos-dos-usuarios" class="md-nav__link">
+    Objetivos dos Usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#goms" class="md-nav__link">
+    GOMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klm-goms" class="md-nav__link">
+    KLM-GOMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmn-goms" class="md-nav__link">
+    CMN-GOMS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia" class="md-nav__link">
+    Referencia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="analise-de-tarefas">Análise de Tarefas</h1>
+<blockquote>
+<p>A análise de tarefas é a atividade que busca ter um entendimento sobre
+o trabalho dos usuário, como eles realizam este trabalho e o por quê.
+Nela nós visamos representar todos os métodos de coletar, classificar
+e interpretar dados que nos ajudem a entender o desempenho de um
+sistema.</p>
+</blockquote>
+<p>Em IHC a análise de tarefas é geralmente utilizada em três atividades</p>
+<p>habituais, são elas:</p>
+<ul>
+<li>Para a análise da situação atual. (Que pode ser apoiada ou não por</li>
+</ul>
+<p>um sistema computacional.)</p>
+<ul>
+<li>
+<p>Para o (re)design de um sistema computacional.</p>
+</li>
+<li>
+<p>Para a avaliação do resultado de uma intervenção que inclua um novo</p>
+</li>
+</ul>
+<p>sistema computacional.</p>
+<p>Existem diversos métodos de análise de tarefas, no entanto os mais</p>
+<p>comuns, e que também serão utilizados neste trabalho são:</p>
+<ul>
+<li>
+<p>Análise Hierárquica de tarefas (AHT)</p>
+</li>
+<li>
+<p>GOMS (Goals, Operators, Methods and Selection Rules)</p>
+</li>
+</ul>
+<hr />
+<h2 id="analise-hierarquica-de-tarefas-aht">Análise Hierárquica de tarefas (AHT)</h2>
+<p>A análise hierárquica de tarefas foi desenvolvida em 1960 com o objetivo
+de entender as competências envolvidas nas tarefas do usuário, esta
+avalia primeiro os objetivos de alto nível dos usuários, decompondo-os
+em subobjetivos.</p>
+<h3 id="objetivos-dos-usuarios">Objetivos dos Usuários</h3>
+<blockquote>
+<p>Os objetivos são as ações que os usuários desejam executar, estes são
+o nível mais alto da hierarquia de objetivos, quando um objetivo
+precisa executar mais de uma tarefa para ser finalizado, chamamos
+essas tarefas de <strong>subobjetivos</strong>. Já a relação entre um objetivo e
+seus subobjetivos são chamadas de <strong>planos</strong>, por fim, quando nós
+chegamos no nível mais baixo da hierarquia temos uma operação que é
+quando atingimos um objetivo ou subjetivo.</p>
+</blockquote>
+<p><img alt="tabela" src="../../images/image1.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Objetivos/Operações</th>
+<th>Problemas e Recomendações</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Resolver um problema 1&gt;2</td>
+<td><strong>input</strong>: Resolver uma questão avulsa <br><strong>feedback</strong>: Atualiza o seu número de problemas resolvidos e gera dados para MINa <br><strong>plano</strong>: Resolver uma questão de um conteúdo já estudado <br><strong>recomendação</strong>: observar o estado da resposta para saber se ela estava correta</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1. Escolher um problema 1/2</td>
+<td><strong>plano</strong>: Escolher dentre uma lista de conteúdos suas respectivas questões, ajustando o tipo de questão, dificuldade e categoria.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1.1 Escolher através da lista de problemas</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1.2 Escolher através da dificuldade</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3. Resolver  um problema</td>
+<td><strong>input</strong>: Enviar resposta da questão <br><strong>feedback</strong>: O sistema irá avisar se sua resposta foi correta ou não. Se não for correta, ele indicará o erro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Tabela 1. Tabela de representação de tarefas da AHT do obejetivo "Resolver problemas"</li>
+</ul>
+<h3 id="goms">GOMS</h3>
+<p>O GOMS(*Goals, Operators, Methods and Selection Rules* - Objetivos,
+Operadores, Métodos e Regras de Seleção) foi criado para analisar o
+desempenho de usuários competentes de sistemas computacionais,
+realizando tarefas dentro da sua competência e sem cometer erros. Esse
+modelo têm se mostrado úteis para prever o desempenho, ou seja, predizer
+o impacto de decisões de design no desempenho competente.</p>
+<p>O GOMS é um método para descrever uma tarefa e o conhecimento do usuário sobre como realizá-la em termos de objetivos(*goals*),
+operadores(*operators*), métodos (*methods*) e regras de seleção
+(*selection rules*).</p>
+<ul>
+<li>Os **objetivos** representam o que o usuário quer realizar</li>
+</ul>
+<p>utilizando o software</p>
+<ul>
+<li>
+<p>Um exemplo de objetivo no SAE é realizar uma lista de exercícios</p>
+</li>
+<li>
+<p>Os **operadores** são primitivas internas ou externas, as ações</p>
+</li>
+</ul>
+<p>concretas que o software permite que os usuários façam.</p>
+<ul>
+<li>Nas listas realizadas pelos alunos, há questões discursivas onde é</li>
+</ul>
+<p>inserido dados que são enviados para serem corrigidas pelo professor.</p>
+<ul>
+<li>Os **métodos** são sequências bem conhecidas de subobjetivos e</li>
+</ul>
+<p>operadores que permitem atingir um objetivo maior.</p>
+<ul>
+<li>Para realizar uma lista, o usuário deve seguir uma série de passos</li>
+</ul>
+<p>até a conclusão de seu objetivo.</p>
+<ul>
+<li>As **regras de seleção** acontece quando há mais do que um método</li>
+</ul>
+<p>para atingir um mesmo objetivo. Elas representam tomadas de decisão dos</p>
+<p>usuários sobre qual método utilizar numa determinada situação.</p>
+<ul>
+<li>Quando objetivo é ter um feedback de como o usuário está se saindo</li>
+</ul>
+<p>nos conteúdos da disciplina, a inteligência artificial MINa realiza essa</p>
+<p>avaliação e indica para o usuário como ele está se saindo. É possível</p>
+<p>chegar a esse objetivo de duas maneiras, solicitando orientação ou</p>
+<p>consultando o relatório.</p>
+<h3 id="klm-goms">KLM-GOMS</h3>
+<p>O KLM é a técnica mais simples de GOMS, limitada a um conjunto</p>
+<p>predefinido pelos seguintes operadores primitivos:</p>
+<ul>
+<li>
+<p>**K** para pressionar uma tecla ou botão;</p>
+</li>
+<li>
+<p>**P** para apontar com o mouse um alvo num dispositivo visual;</p>
+</li>
+<li>
+<p>**H** para mover as mãos para o teclado ou outro dispositivo;</p>
+</li>
+<li>
+<p>**D** para desenhar um segmento de reta em um grid;</p>
+</li>
+<li>
+<p>**M** para se preparar mentalmente para realizar uma ação ou uma</p>
+</li>
+</ul>
+<p>série de ações primitivas fortemente relacionadas entre si;</p>
+<ul>
+<li>**R** para o tempo de resposta do sistema, durante o qual o</li>
+</ul>
+<p>usuário</p>
+<p>Tabela 1. Algumas operações do KLM-GOMS e suas durações médias</p>
+<table>
+<thead>
+<tr>
+<th>operação</th>
+<th>duração média</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>K</strong>: pressionar e soltar uma tecla do teclado(média)</td>
+<td>0,20s</td>
+</tr>
+<tr>
+<td><strong>P</strong>: apontar o cursor do mouse num objeto de tela</td>
+<td>1,10s</td>
+</tr>
+<tr>
+<td><strong>B</strong>: pressionar ou soltar o botão do mouse</td>
+<td>0,10s</td>
+</tr>
+<tr>
+<td><strong>H</strong>: levar a mão do teclado ao mouse ou vice-versa</td>
+<td>0,40s</td>
+</tr>
+<tr>
+<td><strong>M</strong>: preparação mental</td>
+<td>1,20s</td>
+</tr>
+<tr>
+<td><strong>T</strong>(n): digitação de cadeia de caracteres</td>
+<td>n x K s</td>
+</tr>
+<tr>
+<td><strong>W</strong>(t): espera pela resposta do sistema</td>
+<td>depende do sistema</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Tabela 2. Análise da Tarefa: Pedir orientação</p>
+<table>
+<thead>
+<tr>
+<th>Método</th>
+<th>operador</th>
+<th>descrição</th>
+<th>tempo (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Orientação  Solicitar &gt; Turma</td>
+<td>M</td>
+<td>preparação</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Orientação</td>
+<td>1,00</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Orientação</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Orientação na barra lateral</td>
+<td>1,10</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Orientação</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Solicitar</td>
+<td>0,80</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Solicitar</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão da Turma</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão da Turma</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>W</td>
+<td>Espera total para resposta do sistema</td>
+<td>10,32</td>
+</tr>
+<tr>
+<td></td>
+<td>TOTAL</td>
+<td></td>
+<td>17,82</td>
+</tr>
+<tr>
+<td>Orientação  Relatório &gt; Turma</td>
+<td>M</td>
+<td>preparação</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Orientação</td>
+<td>1,00</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Orientação</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Orientação na barra lateral</td>
+<td>1,10</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Orientação</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Relatório</td>
+<td>0,90</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Relatório</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão da Turma</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão da Turma</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>W</td>
+<td>Espera total para resposta do sistema</td>
+<td>5,11</td>
+</tr>
+<tr>
+<td></td>
+<td>TOTAL</td>
+<td></td>
+<td>12,61</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Tabela 2. Análise da Tarefa: Pedir orientação</p>
+<table>
+<thead>
+<tr>
+<th>Método</th>
+<th>operador</th>
+<th>descrição</th>
+<th>tempo (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monitoria Monitoria &gt; Pesquisar Monitoria</td>
+<td>M</td>
+<td>preparação</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Monitoria</td>
+<td>1,00</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Monitoria</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Monitoria na barra lateral</td>
+<td>1,10</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Monitoria</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até ícone do botão Pesquisar ao lado do campo Disciplina</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o ícone do botão Pesquisar</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão da Turma</td>
+<td>1,30</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Turma</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>P</td>
+<td>Levar cursor até botão Pesquisar Monitoria</td>
+<td>1,10</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>pressionar o botão Pesquisar Monitoria</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>B</td>
+<td>Soltar o botão do mouse</td>
+<td>0,20</td>
+</tr>
+<tr>
+<td></td>
+<td>W</td>
+<td>Espera total para resposta do sistema</td>
+<td>6,84</td>
+</tr>
+<tr>
+<td></td>
+<td>TOTAL</td>
+<td></td>
+<td>16,34</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cmn-goms">CMN-GOMS</h3>
+<p>O CMN-GOMS possui uma hierarquia estrita de objetivos, os operadores são</p>
+<p>executados estritamente em ordem sequencial, e os métodos são</p>
+<p>representados numa notação semelhante a um pseudocódigo, que inclui</p>
+<p>submétodos e condicionais. Ao elaborar esse modelo, devemos definir</p>
+<p>cuidadosamente o que representar e o que não representar. Tarefas</p>
+<p>mentais podem ser complexas, mas apenas aquelas que estejam relacionadas</p>
+<p>ao design do sistema devem ser incluídas no modelo.Além disso, o nível</p>
+<p>de detalhes utilizado deve atender aos objetivos da análise. Em etapas</p>
+<p>iniciais, costumamos representar as estratégias alternartivas que o</p>
+<p>usuário poderá seguir para atingir seus objetivos. Já para uma análise</p>
+<p>mais precisa do desempenho, os passos são mais detalhados.</p>
+<p>Exemplo 1 - Modelo CMN-GOMS Sem detalhes</p>
+<p>* GOAL 0: Fazer questões avulsas</p>
+<ul>
+<li>
+<p>GOAL 1: Encontrar o conteúdo</p>
+</li>
+<li>
+<p>METHOD 1.A: Encontrar através do menu Questões</p>
+</li>
+<li>
+<p>OP. 1.A.1: deslocar o cursor do mouse até o botão Questões</p>
+</li>
+<li>
+<p>OP. 1.A.2: clicar com o botão esquerdo do mouse</p>
+</li>
+<li>
+<p>OP. 1.A.3: deslocar o cursor do mouse até o botão Questões no</p>
+</li>
+</ul>
+<p>menu lateral</p>
+<ul>
+<li>
+<p>OP. 1.A.4: clicar com o botão esquerdo do mouse</p>
+</li>
+<li>
+<p>OP. 1.A.5: deslocar o cursor do mouse até o ícone de Pesquisar</p>
+</li>
+</ul>
+<p>no campo Disciplina</p>
+<ul>
+<li>
+<p>OP. 1.A.6: clicar com o botão esquerdo do mouse</p>
+</li>
+<li>
+<p>OP. 1.A.7: deslocar o cursor do mouse até o botão da Disciplina</p>
+</li>
+</ul>
+<p>desejada</p>
+<ul>
+<li>
+<p>OP. 1.A.8: clicar com o botão esquerdo do mouse</p>
+</li>
+<li>
+<p>OP. 1.A.9: deslocar o cursor do mouse até o ícone de Pesquisar</p>
+</li>
+</ul>
+<p>no campo Conteúdo</p>
+<ul>
+<li>
+<p>OP. 1.A.10: clicar com o botão esquerdo do mouse</p>
+</li>
+<li>
+<p>OP. 1.A.11: deslocar o cursor do mouse até o botão do Conteúdo</p>
+</li>
+</ul>
+<p>desejado</p>
+<ul>
+<li>
+<p>OP. 1.A.12: clicar com o botão esquerdo do mouse</p>
+</li>
+<li>
+<p>GOAL 1.A.13 Escolher tipo de questão</p>
+</li>
+<li>
+<p>METHOD 1.A.13.A: selecionar o tipo de questão de acordo com</p>
+</li>
+</ul>
+<p>uma lista de tipos</p>
+<ul>
+<li>
+<p>(SEL. RULE: preferência do usuário)</p>
+</li>
+<li>
+<p>OP. 1.A.13.A.1: deslocar o cursor do mouse para a lista de</p>
+</li>
+</ul>
+<p>Tipo de Questão</p>
+<ul>
+<li>OP. 1.A.13.A.2: clicar com o botão esquerdo sobre o tipo de</li>
+</ul>
+<p>lista desejado</p>
+<ul>
+<li>
+<p>GOAL 1.A.14 Escolher tipo de questão</p>
+</li>
+<li>
+<p>METHOD 1.A.14.A: selecionar a dificuldade da questão de acordo</p>
+</li>
+</ul>
+<p>com uma lista de tipos</p>
+<ul>
+<li>
+<p>(SEL. RULE: preferência do usuário)</p>
+</li>
+<li>
+<p>OP. 1.A.14.A.1: deslocar o cursor do mouse para a lista de</p>
+</li>
+</ul>
+<p>Dificuldade</p>
+<ul>
+<li>OP. 1.A.14.A.2: clicar com o botão esquerdo sobre o tipo de</li>
+</ul>
+<p>lista desejado</p>
+<ul>
+<li>
+<p>GOAL 1.A.15 Escolher tipo de questão</p>
+</li>
+<li>
+<p>METHOD 1.A.15.A: selecionar a categoria da questão de acordo</p>
+</li>
+</ul>
+<p>com uma lista de tipos</p>
+<ul>
+<li>
+<p>(SEL. RULE: preferência do usuário)</p>
+</li>
+<li>
+<p>OP. 1.A.15.A.1: deslocar o cursor do mouse para a lista de</p>
+</li>
+</ul>
+<p>Categoria</p>
+<ul>
+<li>OP. 1.A.15.A.2: clicar com o botão esquerdo sobre o tipo de</li>
+</ul>
+<p>lista desejado</p>
+<ul>
+<li>
+<p>GOAL 1.A.16 Ir para a página com as questões</p>
+</li>
+<li>
+<p>OP. 1.A.16.1: deslocar o cursor do mouse até o botão Continuar</p>
+</li>
+<li>
+<p>OP. 1.A.17.2: clicar com o botão esquerdo do mouse</p>
+</li>
+</ul>
+<h2 id="referencia">Referencia</h2>
+<p><a href="https://aprender3.unb.br/mod/resource/view.php?id=142388">SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, Capítulo 6 - Organização do Espaço de Problema 1a . Edição, Editora Campus, 2010.</a></p>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14/10/2020</td>
+<td>1.0</td>
+<td>Criação das metas de usabilidade</td>
+<td>Rafael Ribeiro/  itallo gravina</td>
+</tr>
+<tr>
+<td>24/10/2020</td>
+<td>1.1</td>
+<td>Adicão das referências</td>
+<td>Rafael Ribeiro</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../storyboards/" title="Storyboards" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Storyboards
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../planejametodaavaliacao/" title="Planejamento da Avaliação" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Planejamento da Avaliação
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
+      <script src="../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
