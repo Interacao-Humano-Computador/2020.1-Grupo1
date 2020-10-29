@@ -12,33 +12,17 @@ Análise de Tarefas
 
   
 
-Em IHC a análise de tarefas é geralmente utilizada em três atividades
+Em IHC a análise de tarefas é geralmente utilizada em três atividades habituais, são elas:
+ - Para a análise da situação atual. (Que pode ser apoiada ou não por um
+   sistema computacional.)
+ - Para o (re)design de um sistema computacional.
+ - Para a avaliação do resultado de uma intervenção que inclua um novo
+   sistema computacional.
 
-habituais, são elas:
+Existem diversos métodos de análise de tarefas, no entanto os mais comuns, e que também serão utilizados neste trabalho são:
+ - Análise Hierárquica de tarefas (AHT)
+ - GOMS (Goals, Operators, Methods and Selection Rules)
 
-  
-
-- Para a análise da situação atual. (Que pode ser apoiada ou não por
-
-um sistema computacional.)
-
-- Para o (re)design de um sistema computacional.
-
-- Para a avaliação do resultado de uma intervenção que inclua um novo
-
-sistema computacional.
-
-  
-
-Existem diversos métodos de análise de tarefas, no entanto os mais
-
-comuns, e que também serão utilizados neste trabalho são:
-
-  
-
-- Análise Hierárquica de tarefas (AHT)
-
-- GOMS (Goals, Operators, Methods and Selection Rules)
 
   
 
