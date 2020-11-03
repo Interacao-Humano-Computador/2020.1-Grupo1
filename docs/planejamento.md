@@ -15,7 +15,7 @@ Introdução
 Heatmap 
 ---------------
 
-![heatmap](./images/heatmap.png)
+![heatmap](./images/heatmapv2.png)
 
 Cronograma 
 ---------------
@@ -39,8 +39,19 @@ Ferramentas Utilizadas
   ![logo zenhub](./images/ZenHub_logo.png) | [ZenHub](https://www.zenhub.com) | Subsistema no GitHub que permite gestão ágil do projeto/grupo com interface KanBan
   ![logo GitHub](./images/GitHub_logo.png) | [Github](https://github.com/) | Plataforma que será utilizada para gerir e unificar aquilo que o grupo desenvolver
   ![logo Drive](./images/GoogleDrive_logo.png) | [Google Drive](https://www.google.com/intl/pt-BR/drive/) | Plataforma para permitir a edição simultânea de arquivos por todos do grupo
-   ![logo telegram](./images/Telegram_logo.png) | [Telegram](https://web.telegram.org/#/login)| Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
-    ![logo Figma](./images/Figma.jpeg) | [Figma](https://www.figma.com/)| Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
+  ![logo telegram](./images/Telegram_logo.png) | [Telegram](https://web.telegram.org/#/login) | Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
+  
+  ![logo Figma](./images/figma_logo.png) | [Figma](https://www.figma.com/) | Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
+
+  ![logo DrawIo](./images/drawio_logo.png) | [Draw.io](https://app.diagrams.net/) | É um editor gráfico online no qual é possível desenvolver desenhos, gráficos e outros sem a necessidade de usar um software caro e pesado.
+
+## Versionamento
+
+Data | Versão | Descrição | Autor
+---- | ------ | --------- | -----
+20/09/2020 | 1.0 | Adição dos planejamento, heatmap, cronograma e ferramentas | Fellipe, Rafael, Itallo
+14/10/2020 | 1.1 | Adição da ferramenta Figma | Gabriel Paiva e Murilo Gomes
+30/10/2020 | 1.2 | Adição da ferramenta Draw Io e versionamento, mudança no heatmap | Rafael
 
 Interação Humano-Computador 2020 SAE
 [Github](https://github.com/Interacao-Humano-Computador/2020.1-SAE/).
