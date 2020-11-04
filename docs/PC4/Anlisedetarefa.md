@@ -73,14 +73,14 @@ em subobjetivos.
 O GOMS(*Goals, Operators, Methods and Selection Rules* - Objetivos, Operadores, Métodos e Regras de Seleção) foi criado para analisar o desempenho de usuários competentes de sistemas computacionais, realizando tarefas dentro da sua competência e sem cometer erros. Esse modelo têm se mostrado úteis para prever o desempenho, ou seja, predizer o impacto de decisões de design no desempenho competente.
 O GOMS é um método para descrever uma tarefa e o conhecimento do usuário sobre como realizá-la em termos de objetivos(*goals*), operadores(*operators*), métodos (*methods*) e regras de seleção (*selection rules*).
 
-- Os **objetivos** representam o que o usuário quer realizar utilizando o software
-  - Um exemplo de objetivo no SAE é realizar uma lista de exercícios
-- Os **operadores** são primitivas internas ou externas, as ações concretas que o software permite que os usuários façam.
-  - Nas listas realizadas pelos alunos, há questões discursivas onde é inserido dados que são enviados para serem corrigidas pelo professor.
-- Os **métodos** são sequências bem conhecidas de subobjetivos e operadores que permitem atingir  um objetivo maior.
-  - Para realizar uma lista, o usuário deve seguir uma série de passos até a conclusão de seu objetivo.
-- As **regras de seleção** acontece quando há mais do que um método para atingir um mesmo objetivo. Elas representam tomadas de decisão dos usuários sobre qual método utilizar numa determinada situação.
-  - Quando objetivo é ter um feedback de como o usuário está se saindo nos conteúdos da disciplina, a inteligência artificial MINa realiza essa avaliação e indica para o usuário como ele está se saindo. É possível chegar a esse objetivo de duas maneiras, solicitando orientação ou consultando o relatório.
+* Os **objetivos** representam o que o usuário quer realizar utilizando o software
+  * Um exemplo de objetivo no SAE é realizar uma lista de exercícios
+* Os **operadores** são primitivas internas ou externas, as ações concretas que o software permite que os usuários façam.
+  * Nas listas realizadas pelos alunos, há questões discursivas onde é inserido dados que são enviados para serem corrigidas pelo professor.
+* Os **métodos** são sequências bem conhecidas de subobjetivos e operadores que permitem atingir  um objetivo maior.
+  * Para realizar uma lista, o usuário deve seguir uma série de passos até a conclusão de seu objetivo.
+* As **regras de seleção** acontece quando há mais do que um método para atingir um mesmo objetivo. Elas representam tomadas de decisão dos usuários sobre qual método utilizar numa determinada situação.
+  * Quando objetivo é ter um feedback de como o usuário está se saindo nos conteúdos da disciplina, a inteligência artificial MINa realiza essa avaliação e indica para o usuário como ele está se saindo. É possível chegar a esse objetivo de duas maneiras, solicitando orientação ou consultando o relatório.
 
 ## KLM-GOMS
 
@@ -217,7 +217,9 @@ Exemplo 1 - Modelo CMN-GOMS Com Detalhes
         + OP. 1.A.16.1: deslocar o cursor do mouse até o botão Continuar
         + OP. 1.A.17.2: clicar com o botão esquerdo do mouse
 
-  
+## Conclusão
+
+Após a realização das análises de tarefas há alguns pontos que podem ser observados. O GOMS pode ser utilizado tanto quantitativamente, de modo a fornecer previsões sobre o tempo necessário para realizar tarefas. O KLM-GOMS apresentado acima afere o tempo que um usuário treinado no sistema leva para fazer uma tarefa simples. Esse tempo é bastante otimista, pois esses passos foram treinados repetidas vezes. Percebe-se que é um tempo elevado para realizar uma tarefa simples que poderia ser realizada em menos da metade do tempo, pois várias etapas são repetidas. O GOMS também pode ser utilizado qualitativamente, no sentido de auxiliar na elaboração de programas de treinamento, pois um modelo GOMS contém uma descrição detalhada do conhecimento necessário para realizar cada tarefa. O CMN-GOMS deixa fácil a identificação de métodos semelhantes, método atipicamente curtos ou longos se destacam e podem disparar ideias de design, como, por exemplo, a inclusão de botões de atalho para tarefas frequentes. Com as análises acima é possível perceber uma grande repetição de ações aparentemente desnecessárias, como por exemplo, ter que selecionar a turma para realizar qualquer objetivo dentro do sistema, mesmo que já tenha selecionado anteriormente para um outro objetivo também relacionado com a mesma turma.
 
 
 ## Referencia 
@@ -231,3 +233,4 @@ Data | Versão | Descrição | Autor
 ---- | ------ | --------- | -----
 14/10/2020 | 1.0 | Criação das Analise de tarefas | Rafael Ribeiro/  itallo gravina
 24/10/2020 | 1.1 | Adicão das referências | Rafael Ribeiro
+03/11/2020 | 1.2 | Conclusão da análise de tarefas | Rafael Ribeiro
