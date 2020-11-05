@@ -11,7 +11,7 @@ Uma persona é um personagem fictício, arquétipo hipotético de um grupo de us
 
                                   
 
-|                         | ![Gráfico de idade](../images/personas/diego.jpeg)                                                                                                                                                                                                                            |
+|                         | ![Gráfico de idade](../images/personas/diego2.jpeg)                                                                                                                                                                                                                            |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nome:                   | Diego Fernandes                                                                                                                                                                                                                                                                     |
 | Idade:                  | 18 anos                                                                                                                                                                                                                                                                             |
@@ -23,7 +23,7 @@ Uma persona é um personagem fictício, arquétipo hipotético de um grupo de us
 <br>
 <br>
 
-|                         | ![Gráfico de idade](../images/personas/jaq.jpeg)                                                                                                                                                                                                                    |
+|                         | ![Gráfico de idade](../images/personas/jaq2.jpeg)                                                                                                                                                                                                                    |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nome:                   | Jaqueline Dias                                                                                                                                                                                                                            |
 | Idade:                  | 22 anos                                                                                                                                                                                                                                   |
@@ -34,9 +34,30 @@ Uma persona é um personagem fictício, arquétipo hipotético de um grupo de us
 <br>
 <br>
 
+|                         | ![Gráfico de idade](../images/personas/maisa.jpeg)                                                                                                                                                                                                                    |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nome:                   | Maísa Morais                                                                                                                                                                                                                            |
+| Idade:                  | 20 anos                                                                                                                                                                                                                                   |
+| Ocupação:               | Estudante de Engenharia, 2° semestre.                                                                                                                                                                                         |
+| Características:        | - Gosta das disciplinas na área de exatas.<br>- Gosta de assistir séries de TV.<br>- Ainda tem dúvidas sobre qual engenharia cursar. |
+| Objetivos:              | Pessoais:<br>- Se formar e morar fora do país.<br>- Conseguir um bom emprego<br><br>Práticos:<br>- Conseguir usufruir de toda a experiência que lhe é proporcionada.                                                    |
+| Sugestão ou Reclamação: | - As vezes não consegue acompanhar tudo o que acontece no meio academico.                                                                                                                   |
+<br>
+<br>
+
+|                         | ![Gráfico de idade](../images/personas/bernardo.jpeg)                                                                                                                                                                                                                    |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nome:                   | Bernardo Melo                                                                                                                                                                                                                            |
+| Idade:                  | 33 anos                                                                                                                                                                                                                                   |
+| Ocupação:               | Gerente regional de uma multinacional.                                                                                                                                                                                         |
+| Características:        | - Pratica esportes no tempo livre.<br>- Casado e possui uma filha de dois anos.<br>- Sempre tentando subir na carreira. |
+| Objetivos:              | Pessoais:<br>- Proporcionar uma vida tranquila para sua família.<br><br>Práticos:<br>- Se especializar nas novas tendencias do mercado.                                                    |
+| Sugestão ou Reclamação: | - Se queixa de não ter  aprendido inglês quando era mais jovem.                                                                                                                   |
 ## Referências
 
-[1] BARBOSA, Simone Diniz Junqueira; DA SILVA, Bruno Santana. Interação humano-computador. Capítulo 6 - Organização do Espaço de Problema. Elsevier, 2010. Disponibilizado no material de apoio da turma.
+[1] [BARBOSA, Simone Diniz Junqueira; DA SILVA, Bruno Santana. Interação humano-computador. Capítulo 6 - Organização do Espaço de Problema. Elsevier, 2010. Disponibilizado no material de apoio da turma.](https://aprender3.unb.br/pluginfile.php/545944/mod_resource/content/4/Simone_Barbosa_Bruno-Interacao_humano_computador%20Cap%206%20Organizacao%20.pdf)
+
+[2] [Fotos Retidas do site This Person Does Not Exist](https://www.thispersondoesnotexist.com/)
 
 <br>
 <br>
@@ -46,5 +67,6 @@ Uma persona é um personagem fictício, arquétipo hipotético de um grupo de us
 | Data:      | Versão: | Descrição:           | Autor:                       |
 |------------|---------|----------------------|------------------------------|
 | 04/10/2020 | 1.0     | Criação das Personas | Gabriel Paiva e Murilo Gomes |
+| 04/11/2020 | 2.0     | - Criação de mais uma persona e uma antipersona<br> - Mudança para fotos criadas por AI | Rafael Ribeiro |
 
 
