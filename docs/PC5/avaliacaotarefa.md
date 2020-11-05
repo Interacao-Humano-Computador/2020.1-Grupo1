@@ -42,10 +42,11 @@ Tabela 1: Atividades do teste de usabilidade
 ## Entrevistas
 
 [Entrevista 1](https://youtu.be/7dQAjqh6NPo)<br>
-<iframe width="560" height="315" src="https://youtu.be/7dQAjqh6NPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7dQAjqh6NPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 [Entrevista 2 ](https://youtu.be/UWv3TnXoLBk)<br>
-<iframe width="560" height="315" src="https://youtu.be/UWv3TnXoLBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UWv3TnXoLBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Conclusão
