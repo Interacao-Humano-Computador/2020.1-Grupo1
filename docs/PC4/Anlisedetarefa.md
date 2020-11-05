@@ -217,10 +217,6 @@ Exemplo 1 - Modelo CMN-GOMS Com Detalhes
         + OP. 1.A.16.1: deslocar o cursor do mouse até o botão Continuar
         + OP. 1.A.17.2: clicar com o botão esquerdo do mouse
 
-## Conclusão
-
-Após a realização das análises de tarefas há alguns pontos que podem ser observados. O GOMS pode ser utilizado tanto quantitativamente, de modo a fornecer previsões sobre o tempo necessário para realizar tarefas. O KLM-GOMS apresentado acima afere o tempo que um usuário treinado no sistema leva para fazer uma tarefa simples. Esse tempo é bastante otimista, pois esses passos foram treinados repetidas vezes. Percebe-se que é um tempo elevado para realizar uma tarefa simples que poderia ser realizada em menos da metade do tempo, pois várias etapas são repetidas. O GOMS também pode ser utilizado qualitativamente, no sentido de auxiliar na elaboração de programas de treinamento, pois um modelo GOMS contém uma descrição detalhada do conhecimento necessário para realizar cada tarefa. O CMN-GOMS deixa fácil a identificação de métodos semelhantes, método atipicamente curtos ou longos se destacam e podem disparar ideias de design, como, por exemplo, a inclusão de botões de atalho para tarefas frequentes. Com as análises acima é possível perceber uma grande repetição de ações aparentemente desnecessárias, como por exemplo, ter que selecionar a turma para realizar qualquer objetivo dentro do sistema, mesmo que já tenha selecionado anteriormente para um outro objetivo também relacionado com a mesma turma.
-
 
 ## Referencia 
 [SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, Capítulo 6 - Organização do Espaço de Problema 1a . Edição, Editora Campus, 2010.](https://aprender3.unb.br/mod/resource/view.php?id=142388)
