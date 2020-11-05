@@ -108,9 +108,7 @@ Figura 2 - Storyboard representando o problema de inserir informações repetida
 
 ### 5.1 - Respostas das Perguntas:
 
-<br>
-
-### Respostas do Participante nº1 (Eliseu Kadesh):
+**Respostas do Participante nº1 (Eliseu Kadesh):**
 
 **Storyboard 1:**
 
@@ -168,7 +166,7 @@ R: "Não pedir as informações de novo. Talvez uma informação só, tipo o nú
 
 <br>
 
-### Respostas do Participante nº2 (Jaqueline Dias):
+**Respostas do Participante nº2 (Jaqueline Dias):**
 
 **Storyboard 1:**
 
