@@ -51,7 +51,7 @@ Essa avaliação foi feita com membros do próprio grupo da disciplina:
 O Teste Piloto foi feito de forma remota, através do Microsoft Teams e pode ser visto no link a seguir:
 
 [Teste Piloto](https://www.youtube.com/watch?v=hh2hUiACfHU&feature=youtu.be)<br>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hh2hUiACfHU&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hh2hUiACfHU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
@@ -70,7 +70,7 @@ A execução dessa Avaliação foi dividida em dois modelos, devido ao cenário 
 A avaliação do protótipo de papel feita no modelo presencial, teve Matheus Gomes como participante. Pode ser conferida no vídeo abaixo:
 
 [Avaliação Presencial](https://www.youtube.com/watch?v=zUdPB2t1q5U&feature=youtu.be)<br>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=zUdPB2t1q5U&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zUdPB2t1q5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
@@ -83,14 +83,14 @@ Foram feitas duas avaliações no modelo remoto, tendo Eliseu Kadesh e Washingto
 **Avaliação Remota com Eliseu Kadesh:**
 
 [Avaliação Remota com Eliseu Kadesh](https://www.youtube.com/watch?v=_sy_tjJuTZE)<br>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=_sy_tjJuTZE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_sy_tjJuTZE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
 **Avaliação Remota com Washington Bispo:**
 
 [Avaliação Remota com Washington Bispo](https://www.youtube.com/watch?v=JxeuB-dUNYQ)<br>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=JxeuB-dUNYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JxeuB-dUNYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
