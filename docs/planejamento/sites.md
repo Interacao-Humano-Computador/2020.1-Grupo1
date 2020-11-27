@@ -26,6 +26,8 @@ Imagem 1: Heurística de estética e design
 ![Análise SAE](../images/nielsen.png)
 
 Além dos problemas encontrados na heurística supracitada, também há problemas na visibilidade de qual estado estamos no sistema, liberdade de controle fácil para o usuário, prevenções de erros, reconhecimento em vez de memorização, flexibilidade e eficiência de uso. Essa quantidade de problemas encontrados tornou viável a escolha do site para propostas de melhorias nessas áreas.
+<br>
+Devido a limitações de tempo do semestre, foram escolhidas as seguintes heurísticas para serem melhoradas no nosso projeto: estética e design, visibilidade de qual estado estamos no sistema, reconhecimento em vez de memorização e eficiência de uso.
 
 ## Referência
 
