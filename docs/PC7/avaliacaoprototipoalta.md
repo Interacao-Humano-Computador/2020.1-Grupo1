@@ -16,7 +16,7 @@ Washington Bispo: Estudante de Engenharia de Software do 5° semestre, 21 anos.
 
 Como descrito no Planejamento da Avaliação do Protótipo de Alta Fidelidade, antes de realizar a avaliação, seguimos os seguintes passos:
 
-- **Definir as tarefas para os participantes executarem:** Cada participante da avaliação terá que realizar as seguintes tarefas:
+**Definir as tarefas para os participantes executarem:** Cada participante da avaliação terá que realizar as seguintes tarefas:
 
 -   Efetuar Login;
     
@@ -52,9 +52,9 @@ Após a realização dessas tarefas, os participantes ainda tiveram que responde
 
   * Alguma outra consideração?
 
--   **Definir o perfil dos usuários e recrutá-los:** Utilizamos a descrição do perfil dos usuários já feita anteriormente para recrutar participantes. Portanto, nossos usuários serão: Estudantes de Engenharia de Software, entre 18 e 28 anos.    
+**Definir o perfil dos usuários e recrutá-los:** Utilizamos a descrição do perfil dos usuários já feita anteriormente para recrutar participantes. Portanto, nossos usuários serão: Estudantes de Engenharia de Software, entre 18 e 28 anos.    
 
--   **Criar o Protótipo de Alta Fidelidade criado para simular a execução das tarefas:** Utilizaremos o Protótipo de Alta Fidelidade apresentado no PC6 para simular o funcionamento do site e realizar a tarefa escolhida para essa avaliação.
+**Criar o Protótipo de Alta Fidelidade criado para simular a execução das tarefas:** Utilizaremos o Protótipo de Alta Fidelidade apresentado no PC6 para simular o funcionamento do site e realizar a tarefa escolhida para essa avaliação.
 
 ### 3.1 Termo de Consentimento
 
