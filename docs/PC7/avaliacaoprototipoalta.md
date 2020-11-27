@@ -112,29 +112,60 @@ A execução dessa Avaliação foi feita de forma remota, devido ao cenário de 
 
 **Participante:** Eliseu Kadesh
 
-**Conseguiu concluir a tarefa?** Sim.
 
-**Tempo para realizar a tarefa:** 1 minuto 17 segundos (levando em conta o tempo gasto pelo Avaliador para trocar os elementos da interface).
+**Dados do Pré-Questionário:**
 
-**Erros cometidos:** 0
+  **Nome:** Eliseu Kadesh Rosa Assunção Júnior
+
+  **Curso:** Engenharia de Software//5º Semestre
+
+  **Experiência com o SAE:** Utilizou em Algoritmos no 1ºSemestre, considera sua experiência com o site média.
+
+**Tarefa 1 - Assinar Chamada na Turma de Algoritmos:**
+
+  **Conseguiu realizar tarefa?** Sim
+
+  **Tempo para realizar a tarefa:** 2 Minutos e 14 segundos
+
+  **Erros cometidos:** Cerca de 12 erros, sendo que cada erro foi contabilizado cada vez que o participante clicava em algo fora do caminho da atividade, nesse caso ele tentou várias opções do menu dropdown e dos submenus.
+
+**Tarefa 2 - Solicitar Orientação na Turma de IHC:**
+
+  **Conseguiu realizar tarefa?** Sim
+
+  **Tempo para realizar a tarefa:** 9 segundos
+
+  **Erros cometidos:** 0
+
+**Tarefa 3 - Enviar Lista de Exercícios de Algoritmos:**
+
+  **Conseguiu realizar tarefa?** Sim
+
+  **Tempo para realizar a tarefa:** 51 segundos
+
+  **Erros cometidos:** 2, procurou a opção em outros menus.
 
 **Questões:**
 
-  **- Considerando 1 como Muito Difícil e 5 como Muito Fácil, como você classifica a complexidade de realizar essa tarefa?**
+  **- Você sentiu dificuldade em realizar as tarefas?**
 
-  Resposta: 5.
+  Resposta: "Senti dificuldade em realizar a tarefa de assinar a chamada."
 
-  **- Considerando 1 como Nada Intuitivo e 5 como Muito Intuitivo, como você classifica a usabilidade dessa interface?**
+  **- Alguma parte da interface e da interação o deixa insatisfeito? Se sim, qual(is)?**
 
-  Resposta: 5.
+  Resposta: "Não diria que me deixa insatisfeito, mas achei um pouco difícil achar o caminho para assinar a chamada, eu não sabia que tinha que acessar aquele menu para achar a disciplina, para depois assinar a chamada, não foi muito intuitivo para mim."
 
-  **- Você tem sugestões para melhorar essa interface?**
+  **- Alguma parte da interface o desmotiva a explorar novas funcionalidades? Se sim, qual(is)?**
 
   Resposta: "Não."
 
   **- Tem algum elemento da interface que não está claro?**
 
   Resposta: "Não."
+
+  **- Alguma outra consideração ou sugestão para melhorar a interaça?**
+
+  Resposta: "Poderiam deixar a parte de ver disciplinas mais visível."
 
   <br>
 
@@ -142,47 +173,75 @@ A execução dessa Avaliação foi feita de forma remota, devido ao cenário de 
 
 **Participante:** Washington Bispo
 
-**Conseguiu concluir a tarefa?** Sim.
 
-**Tempo para realizar a tarefa:** 43 segundos (levando em conta o tempo gasto pelo Avaliador para trocar os elementos da interface).
+**Dados do Pré-Questionário:**
 
-**Erros cometidos:** 0
+  **Nome:** Washington Bispo Arishita Júnior
+
+  **Curso:** Engenharia de Software//5º Semestre
+
+  **Experiência com o SAE:** Utilizou na matéria de Banco de Dados 1, por duas semanas, pois retirou a matéria, considera sua experiência com o site baixa.
+
+**Tarefa 1 - Assinar Chamada na Turma de Algoritmos:**
+
+  **Conseguiu realizar tarefa?** Sim
+
+  **Tempo para realizar a tarefa:** 40 segundos
+
+  **Erros cometidos:** 7 erros, contabilizando todas as vezes que o participante clicou em um menu ou submenu fora do caminho da tarefa.
+
+**Tarefa 2 - Solicitar Orientação na Turma de IHC:**
+
+  **Conseguiu realizar tarefa?** Sim
+
+  **Tempo para realizar a tarefa:** 8 segundos
+
+  **Erros cometidos:** 0
+
+**Tarefa 3 - Enviar Lista de Exercícios de Algoritmos:**
+
+  **Conseguiu realizar tarefa?** Sim
+
+  **Tempo para realizar a tarefa:** 31 segundos
+
+  **Erros cometidos:** 1 tentou acessar a página de ver disciplinas, ao invés da página suas turmas.
 
 **Questões:**
 
-  **- Considerando 1 como Muito Difícil e 5 como Muito Fácil, como você classifica a complexidade de realizar essa tarefa?**
+  **- Você sentiu dificuldade em realizar as tarefas?**
 
-  Resposta: 5.
+  Resposta: "Sim, em realizar a tarefa de assinar a chamada de apc."
 
-  **- Considerando 1 como Nada Intuitivo e 5 como Muito Intuitivo, como você classifica a usabilidade dessa interface?**
+  **- Alguma parte da interface e da interação o deixa insatisfeito? Se sim, qual(is)?**
 
-  Resposta: 5.
+  Resposta: "Sim, não entendi a parte de perfil na página de Login".
 
-  **- Você tem sugestões para melhorar essa interface?**
+  **- Alguma parte da interface o desmotiva a explorar novas funcionalidades? Se sim, qual(is)?**
 
   Resposta: "Não."
 
-  **- Tem algum elemento da interface que não está claro?**
+  **- Entende o que significa e para que serve cada elemento de interface?**
 
-  Resposta: "Escolher nomes mais significativos para o dropdown."
+  Resposta: "O que eu explorei, sim."
+
+  **- Alguma outra consideração ou sugestão para melhorar a interaça?**
+
+  Resposta: "Não."
 
   <br>
 
 ### 5.2 - Problemas Encontrados
 
-**Problema n°1:** O cabeçalho que indica o caminho atual do site está parecido com um botão do menu dropdown, podendo causar confusão nos usuários.
+**Problema n°1:** Os nomes da páginas do menu dropdown ainda parecem ser um pouco confusos, principalmente para usuários não recorrentes do SAE.
 
-**Problema n°2:** O nomes das abas do menu dropdown não claros o suficiente para os usuários, podendo causar confusão e dificultar a execução das tarefas no site.
 
 ### 5.3 - Possíveis Correções
 
-**Problema n°1:** Modificar o design do cabeçalho que indica o caminho atual, diferenciando-o dos botões do menu dropdown, para não causar confusão.
-
-**Problema n°2:** Escolher nomes mais significativos para os nomes das abas do menu dropdown, para deixar mais claro aos usuários o que encontrarão nessas abas e quais tarefas podem ser realizadas acessando-as.
+**Problema n°1:** Modificar os nomes ou a organização de informações no menu dropdown.
 
 ## 6 - Conclusão
 
-Com base nos resultados dessa Avaliação do Protótipo de Papel, foi possível notar os erros presentes na interface, que poderão ser corrigidos para melhorar a experiência do usuário e aplicadas no Protótipo de Alta Fidelidade.
+Com base nos resultados dessa Avaliação do Protótipo de Alta Fidelidade, foi possível notar alguns erros ainda presentes na interface, que podem ser corrigidos antes da implementação do site.
 
 ## Referências
 
