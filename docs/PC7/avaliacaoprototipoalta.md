@@ -30,27 +30,27 @@ Vale ressaltar que as tarefas de Solicitar Orientação e Assinar Chamada já fo
 
 Antes de realizar essas tarefas, os participantes tiverem que responder as seguintes questões para validar como elas se encaixam no Perfil de Usuário definido:
 
-    * Qual é o seu nome?
+  * Qual é o seu nome?
 
-    * Qual é o seu curso?
+  * Qual é o seu curso?
 
-    * Em qual semestre você está?
+  * Em qual semestre você está?
 
-    * Já usou/usa o SAE? Se sim, em qual matéria?
+  * Já usou/usa o SAE? Se sim, em qual matéria?
 
-    * Qual é o seu nível de experiência com o SAE?
+  * Qual é o seu nível de experiência com o SAE?
 
 Após a realização dessas tarefas, os participantes ainda tiveram que responder as seguintes questões:
 
-    * Você se sentiu dificuldade em realizar as tarefas?
+  * Você se sentiu dificuldade em realizar as tarefas?
 
-    * Que parte da interface e da interação o deixa insatisfeito?
+  * Que parte da interface e da interação o deixa insatisfeito?
 
-    * Que parte da interface o desmotiva a explorar novas funcionalidades?
+  * Que parte da interface o desmotiva a explorar novas funcionalidades?
 
-    * Ele entende o que significa e para que serve cada elemento de interface?
+  * Ele entende o que significa e para que serve cada elemento de interface?
 
-    * Alguma outra consideração?
+  * Alguma outra consideração?
 
 -   **Definir o perfil dos usuários e recrutá-los:** Utilizamos a descrição do perfil dos usuários já feita anteriormente para recrutar participantes. Portanto, nossos usuários serão: Estudantes de Engenharia de Software, entre 18 e 28 anos.    
 
