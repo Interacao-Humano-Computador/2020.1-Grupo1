@@ -6,29 +6,24 @@ nav:
     - Equipe: equipe.md
     - Planejamento: planejamento.md
     # - Ponto de Controle 1: controle1.md
-    - Ponto de Controle 2: 
-        - Apresentação: PC2/Apresentacao.md
-        - Analise de Tarefa: PC2/analise-tarefas.md
+    - Análise de requisitos: 
+        - Análise de Tarefas: PC2/analise-tarefas.md
         - Perfil do usuario: PC2/perfil-usuarios.md
-        - Persona: PC2/personas.md
-    - Ponto de Controle 3: 
-        - Apresentação: PC3/Apresentacao.md
         - Guia de Estilo: PC3/Guia de Estilo.md
-        - Metas de usabilidade: PC3/Metas de usabilidade.md
+        - Metas de Usabilidade: PC3/Metas de usabilidade.md
         - Princípios Gerais de Projeto: PC3/Princípios Gerais de Projeto.md
-    - Ponto de Controle 4:
-        - Apresentação: PC4/Apresentacao.md
-        - Storyboards: PC4/storyboards.md
-        - Análise de Tarefa: PC4/Anlisedetarefa.md
-        - Planejamento da Avaliação : PC4/planejametodaavaliacao.md
-    - Ponto de Controle 5:
-        - Apresentação: PC5/Apresentacao.md
-        - Avaliação Storyboards: PC5/avaliacaostoryboards.md
-        - Avaliação de Tarefas: PC5/avaliacaotarefa.md
-        - Prototipo de papel: PC5/prototipopapel.md
-        - Avaliação Protótipo: PC5/avaliacaoprototipacao.md
-    - Ponto de Controle 6:
-        - Apresentação: PC6/Apresentacao.md
-        - Avaliação do Prototipo de Papel:  PC6/relatoavaliacaoprototipo.md 
-        - Prototipo de Alta Fidelidade:  PC6/prototipoaltafidelidade.md
-        - Planejamento da Avaliação do Prototipo de Alta Fidelidade:  PC6/planejamentodeavaliacao.md
+    - Design, Avaliação e Desenvolvimento:
+        - Nivel 1: 
+            - Personas: PC2/personas.md
+            - Storyboards: PC4/storyboards.md  
+            - Análise de Tarefas 2.0: PC4/Anlisedetarefa.md
+            - Planejamento das Avaliações de Storyboards e Análise de Tarefas: PC4/planejametodaavaliacao.md
+            - Avaliação dos Storyboards: PC5/avaliacaostoryboards.md
+            - Avaliação das Análises de Tarefas: PC5/avaliacaotarefa.md
+        - Nivel 2:
+            - Protótipo de papel: PC5/prototipopapel.md
+            - Planejamento da Avaliação Protótipo de Papel: PC5/avaliacaoprototipacao.md
+            - Avaliação do Prototipo de Papel:  PC6/relatoavaliacaoprototipo.md 
+        - Nivel 3:
+            - Prototipo de Alta Fidelidade:  PC6/prototipoaltafidelidade.md
+            - Planejamento da Avaliação do Prototipo de Alta Fidelidade:  PC6/planejamentodeavaliacao.md
