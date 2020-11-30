@@ -15,7 +15,7 @@ Introdução
 Heatmap 
 ---------------
 
-![heatmap](./images/heatmapv2.png)
+![heatmap](../images/heatmapv2.png)
 
 Cronograma 
 ---------------
@@ -70,12 +70,12 @@ Ferramentas Utilizadas
 ---------------
   Ferramenta  | Nome |  Descrição 
   :--------- | :------: | :-------:
-  ![logo zenhub](./images/ZenHub_logo.png) | [ZenHub](https://www.zenhub.com) | Subsistema no GitHub que permite gestão ágil do projeto/grupo com interface KanBan
-  ![logo GitHub](./images/GitHub_logo.png) | [Github](https://github.com/) | Plataforma que será utilizada para gerir e unificar aquilo que o grupo desenvolver
-  ![logo Drive](./images/GoogleDrive_logo.png) | [Google Drive](https://www.google.com/intl/pt-BR/drive/) | Plataforma para permitir a edição simultânea de arquivos por todos do grupo
-  ![logo telegram](./images/Telegram_logo.png) | [Telegram](https://web.telegram.org/#/login) | Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
-  ![logo Figma](./images/figma_logo.png) | [Figma](https://www.figma.com/) | Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
-  ![logo DrawIo](./images/drawio_logo.png) | [Draw.io](https://app.diagrams.net/) | É um editor gráfico online no qual é possível desenvolver desenhos, gráficos e outros sem a necessidade de usar um software caro e pesado.
+  ![logo zenhub](../images/ZenHub_logo.png) | [ZenHub](https://www.zenhub.com) | Subsistema no GitHub que permite gestão ágil do projeto/grupo com interface KanBan
+  ![logo GitHub](../images/GitHub_logo.png) | [Github](https://github.com/) | Plataforma que será utilizada para gerir e unificar aquilo que o grupo desenvolver
+  ![logo Drive](../images/GoogleDrive_logo.png) | [Google Drive](https://www.google.com/intl/pt-BR/drive/) | Plataforma para permitir a edição simultânea de arquivos por todos do grupo
+  ![logo telegram](../images/Telegram_logo.png) | [Telegram](https://web.telegram.org/#/login) | Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
+  ![logo Figma](../images/figma_logo.png) | [Figma](https://www.figma.com/) | Ferramenta de comunicação para avisos gerais, marcar datas de reunião, entre outros
+  ![logo DrawIo](../images/drawio_logo.png) | [Draw.io](https://app.diagrams.net/) | É um editor gráfico online no qual é possível desenvolver desenhos, gráficos e outros sem a necessidade de usar um software caro e pesado.
 
 ## Versionamento
 
