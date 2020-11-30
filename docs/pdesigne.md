@@ -8,7 +8,7 @@ O design é um processo que envolve as seguintes atividades básicas: a análise
 
 Uma característica básica dos processos de design de IHC é a execução das atividades de forma iterativa, permitindo refinamentos sucessivos da análise da situação atual e da proposta de intervenção. Diante de vários processos de design que poderiam ser escolhidos a equipe decidiu utilizar a Engenharia de Usabilidade de Mayhew como processo de design da disciplina, pois este processo de design contém alta iteratividade, fazendo com que cada artefato seja avaliado antes de continuar para outro nível do projeto, o que se adequa a nossa proposta para o projeto.
 
-### Engenharia de Usabilidade de Mayhew
+## 3 - Engenharia de Usabilidade de Mayhew
 
 Debora Mayhew (1999) propôs um ciclo de vida para a engenharia de usabilidade. Com uma visão holística, esse processo de design reúne e organiza diferentes atividades propostas na área de IHC para orientar o trabalho do designer em direção a uma boa solução interativa
 
@@ -22,7 +22,7 @@ O ciclo de vida de Mayhew é dividido em três fases:
 
 **Instalação:** Nessa fase o designer deve recolher informações dos usuários depois de algum tempo de implantação do sistema.
 
-## Conclusão:
+## 4 - Conclusão:
 
 Devido às características da Engenharia da Usabilidade de Mayhew citadas anteriormente, a equipe resolveu aplicar esse processo de design no projeto que será feito na disciplina, buscando o desenvolvimento da melhor solução de IHC possível, utilizando o site do SAE como base.
 
