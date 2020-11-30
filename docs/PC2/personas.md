@@ -3,7 +3,9 @@
 ## O que é uma persona?
 
 Uma persona é um personagem fictício, arquétipo hipotético de um grupo de usuários reais, criada para descrever um usuário típico [1].
+
 No caso desse projeto, as personas a seguir são baseadas principalmente em alunos do curso de Engenharia, com no no curso de Engenharia de Software, afinal esses são os principais usuários do SAE atualmente segundo a pesquisa de perfil do usuário.
+
 Ainda acerca de tais personas, as idades, características, objetivos e sugestões podem ser as mais variadas, afinal o ponto principal da aplicação é que ela é voltada a atender alunos reais, então mesmo que essas áreas sejam variadas e que personas sejam ficcionais por definição, tais personas são satisfatórias.
 
 ## Objetivos
