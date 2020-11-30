@@ -10,7 +10,7 @@ destina
 Introdução 
 ---------------
 
- O Planejamento consiste da preparação, organização e estruturação do projeto. É essencial na tomada de decisões e execução dessas mesmas tarefas. Posteriormente, o planejamento também a confirmação se as decisões tomadas foram acertadas. Portanto, o planejamento serve para auxilar o grupo a se organizar nas tarefas que serão propostas durante o projeto, de acordo com as respectivas datas de entrega. {style="padding: 10px 0 15px 0;"}
+ O Planejamento consiste da preparação, organização e estruturação do projeto. É essencial na tomada de decisões e execução dessas mesmas tarefas. Posteriormente, o planejamento também a confirmação se as decisões tomadas foram acertadas. Portanto, o planejamento serve para auxilar o grupo a se organizar nas tarefas que serão propostas durante o projeto, de acordo com as respectivas datas de entrega. 
 
 Heatmap 
 ---------------
@@ -20,7 +20,7 @@ Heatmap
 Cronograma 
 ---------------
 
- A seguir, estão descritas todas as datas importantes de entrega da equipe moldado no plano de ensino da matéria. Para cada ponto de controle, estão definidas ao menos duas reuniões presenciais, à priori marcadas para acontecer no sábado, mas que podem ser remarcadas caso seja necessário. Além disso, reuniões à distância ocorrerão sob demanda, conforme for necessário para o desenvolvimento do projeto. É importante salientar também que o cronograma está sujeito a mudanças que, caso ocorram, serão rastreadas no versionamento da página. {style="padding: 10px 0 15px 0;"}
+ A seguir, estão descritas todas as datas importantes de entrega da equipe moldado no plano de ensino da matéria. Para cada ponto de controle, estão definidas ao menos duas reuniões presenciais, à priori marcadas para acontecer no sábado, mas que podem ser remarcadas caso seja necessário. Além disso, reuniões à distância ocorrerão sob demanda, conforme for necessário para o desenvolvimento do projeto. É importante salientar também que o cronograma está sujeito a mudanças que, caso ocorram, serão rastreadas no versionamento da página. 
 
   Atividade   |   Data    |   O que deve ser apresentado
 ----------- | --------- | ------------------------------
