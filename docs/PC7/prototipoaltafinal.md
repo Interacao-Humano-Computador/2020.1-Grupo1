@@ -50,7 +50,7 @@ Figura 8: Menu Dropdown com novas opções
 
 # Conclusão
 
-Dessa forma, evidenciamos a versão final do Protótipo de Alta Fidelidade do SAE, aplicando os conhecimentos de IHC adquiridos durante o semestre. Passando por etapas desde o Planejamento, Análise de Requisitos, Design, Avaliação e Desenvolvimento, culminando nesse documento, que leva em conta as Metas de Estabilidade e Guia de Estilos definidos anteriormente, assim como as pesquisas e avaliações feitas com usuários reais, entre outras informações importantes.
+Dessa forma, evidenciamos a versão final do Protótipo de Alta Fidelidade do SAE, aplicando os conhecimentos de IHC adquiridos durante o semestre. Passando por etapas desde o Planejamento, Análise de Requisitos, Design, Avaliação e Desenvolvimento, culminando nesse documento, que leva em conta as Metas de Usabilidade e Guia de Estilos definidos anteriormente, assim como as pesquisas e avaliações feitas com usuários reais, entre outras informações importantes.
 
 # Versionamento
 
