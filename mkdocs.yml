@@ -1,0 +1,32 @@
+site_name: SAE
+theme:
+  name: material
+nav:
+    - Home: index.md
+    - Equipe: equipe.md
+    - Apresentações: planejamento/apresentacao.md
+    - Processo de Design: pdesigne.md
+    - Planejamento: planejamento/planejamento.md
+    - Análise de requisitos: 
+        - Análise de Tarefas: PC2/analise-tarefas.md
+        - Perfil do usuario: PC2/perfil-usuarios.md
+        - Guia de Estilo: PC3/Guia de Estilo.md
+        - Metas de Usabilidade: PC3/Metas de usabilidade.md
+        - Princípios Gerais de Projeto: PC3/Princípios Gerais de Projeto.md
+    - Design, Avaliação e Desenvolvimento:
+        - Nivel 1: 
+            - Personas: PC2/personas.md
+            - Storyboards: PC4/storyboards.md  
+            - Análise de Tarefas 2.0: PC4/Anlisedetarefa.md
+            - Planejamento das Avaliações de Storyboards e Análise de Tarefas: PC4/planejametodaavaliacao.md
+            - Avaliação dos Storyboards: PC5/avaliacaostoryboards.md
+            - Avaliação das Análises de Tarefas: PC5/avaliacaotarefa.md
+        - Nivel 2:
+            - Protótipo de papel: PC5/prototipopapel.md
+            - Planejamento da Avaliação Protótipo de Papel: PC5/avaliacaoprototipacao.md
+            - Avaliação do Protótipo de Papel:  PC6/relatoavaliacaoprototipo.md 
+        - Nivel 3:
+            - Protótipo de Alta Fidelidade:  PC6/prototipoaltafidelidade.md
+            - Planejamento da Avaliação do Protótipo de Alta Fidelidade:  PC6/planejamentodeavaliacao.md
+            - Avaliação do Protótipo de Alta-Fidelidade: PC7/avaliacaoprototipoalta.md   
+            - Protótipo de Alta Fidelidade Versão Final: PC7/prototipoaltafinal.md
