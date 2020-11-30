@@ -10,9 +10,9 @@ Uma característica básica dos processos de design de IHC é a execução das a
 
 ### Engenharia de Usabilidade de Mayhew
 
-	Debora Mayhew (1999) propôs um ciclo de vida para a engenharia de usabilidade. Com uma visão holística, esse processo de design reúne e organiza diferentes atividades propostas na área de IHC para orientar o trabalho do designer em direção a uma boa solução interativa
+Debora Mayhew (1999) propôs um ciclo de vida para a engenharia de usabilidade. Com uma visão holística, esse processo de design reúne e organiza diferentes atividades propostas na área de IHC para orientar o trabalho do designer em direção a uma boa solução interativa
 
-[IMAGEM DO CICLO DE VIDA AQUI]
+![Imagem do Ciclo de Vida](./images/ciclo-mayhew.jpg)
 
 O ciclo de vida de Mayhew é dividido em três fases:
 
