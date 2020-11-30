@@ -5,8 +5,8 @@ nav:
     - Home: index.md
     - Equipe: equipe.md
     - Apresentações: planejamento/apresentacao.md
+    - Processo de Design: pdesigne.md
     - Planejamento: planejamento/planejamento.md
-    # - Ponto de Controle 1: controle1.md
     - Análise de requisitos: 
         - Análise de Tarefas: PC2/analise-tarefas.md
         - Perfil do usuario: PC2/perfil-usuarios.md
@@ -24,9 +24,9 @@ nav:
         - Nivel 2:
             - Protótipo de papel: PC5/prototipopapel.md
             - Planejamento da Avaliação Protótipo de Papel: PC5/avaliacaoprototipacao.md
-            - Avaliação do Prototipo de Papel:  PC6/relatoavaliacaoprototipo.md 
+            - Avaliação do Protótipo de Papel:  PC6/relatoavaliacaoprototipo.md 
         - Nivel 3:
-            - Prototipo de Alta Fidelidade:  PC6/prototipoaltafidelidade.md
-            - Planejamento da Avaliação do Prototipo de Alta Fidelidade:  PC6/planejamentodeavaliacao.md
+            - Protótipo de Alta Fidelidade:  PC6/prototipoaltafidelidade.md
+            - Planejamento da Avaliação do Protótipo de Alta Fidelidade:  PC6/planejamentodeavaliacao.md
             - Avaliação do Protótipo de Alta-Fidelidade: PC7/avaliacaoprototipoalta.md   
             - Protótipo de Alta Fidelidade Versão Final: PC7/prototipoaltafinal.md
